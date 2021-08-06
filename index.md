@@ -32,7 +32,7 @@ layout: default
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps by August 2021 & for existing app updates by November 2021.</li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps by August 2021 & for app updates by November 2021.</li>
     </ul>
   </td></tr>
   <tr>
