@@ -1,0 +1,15 @@
+title: Android API levels, versions, and more
+description:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.babel.js
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src
+  - tailwind.config.js
+  - netlify.toml
