@@ -24,19 +24,29 @@ layout: default
     <td>2021</td>
   </tr>
   <tr>
-    <td><b>Android 11</b></td>
+    <td rowspan="2"><b>Android 11</b></td>
     <td>Level 30</td>
     <td><code>R</code></td>
     <td>Android11</td>
-    <td>2020</td>
+    <td rowspan="2">2020</td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps by August 2021 & for existing apps by November 2021.</li>
+    </ul>
+  </td></tr>
   <tr>
-    <td><b>Android 10</b></td>
+    <td rowspan="2"><b>Android 10</b></td>
     <td>Level 29</td>
     <td><code>Q</code></td>
     <td>Android10</td>
-    <td>2019</td>
+    <td rowspan="2">2019</td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must now be 29+</a> for all app updates.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td><b>Android 9</b></td>
     <td>Level 28</td>
