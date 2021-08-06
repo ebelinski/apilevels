@@ -1,12 +1,18 @@
 ---
 layout: default
 ---
+{::options parse_block_html="true" /}
+
+<div id="compact-toc">
+* TOC
+{:toc}
+</div>
 
 <table class="full-width">
   <tr>
     <th>Android version</th>
     <th>API Level</th>
-    <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES#S:kotlin.Int">Version Code</a></th>
+    <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version Code</a></th>
     <th>Codename</th>
     <th>Year</th>
   </tr>
@@ -47,7 +53,7 @@ layout: default
   </tr>
   <tr>
     <td>API Level 26 <span class="subversion">Android 8.0</span></td>
-    <td><code>O_MR1</code></td>
+    <td><code>O</code></td>
   </tr>
   <tr>
     <td rowspan="2"><b>Android 7</b></td>
@@ -58,7 +64,7 @@ layout: default
   </tr>
   <tr>
     <td>API Level 24 <span class="subversion">Android 7.0</span></td>
-    <td><code>N_MR1</code></td>
+    <td><code>N</code></td>
   </tr>
   <tr>
     <td><b>Android 6</b></td>
@@ -110,13 +116,21 @@ layout: default
   </tr>
 </table>
 
-<h2>Notes</h2>
+### Notes
 
-<p><sup>1</sup> API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear.
+<p><sup>1</sup> API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear.</p>
 
-<h2>See also</h2>
+## Definitions
 
-<ul>
-  <li><a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES">Build.VERSION_CODES</a></li>
-  <li><a href="https://source.android.com/setup/start/build-numbers">Codenames, Tags, and Build Numbers</a></li>
-</ul>
+* **Version Code
+
+### SDKs
+
+* **`minSdk`**: The minimum SDK version your app will support. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
+* **`targetSdk`**: The SDK version that your app targets. This should always be the same as `compileSdk`.
+* **`compileSdk`**: The SDK version that your app compiles against. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
+
+## See also
+
+* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES)
+* [Codenames, Tags, and Build Numbers](https://source.android.com/setup/start/build-numbers)
