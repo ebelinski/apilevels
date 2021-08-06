@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Android API levels, versions, and more
-description: Android API levels, versions, and more
+title: Android API Levels
+description: A quick reference table for Android versions, API & SDK levels, version codes, codenames, and more.
 author: Eugene Belinski
 keywords: android,api,levels
 
