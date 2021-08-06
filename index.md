@@ -14,6 +14,10 @@ layout: default
     <th>API/SDK Level</th>
     <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version Code</a></th>
     <th>Codename</th>
+    <th>
+      Dist.
+      <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
+    </th>
     <th>Year</th>
   </tr>
   <tr>
@@ -24,6 +28,7 @@ layout: default
     <td>Level 31</td>
     <td><code>S</code></td>
     <td><i>TBD</i></td>
+    <td>—</td>
     <td><i>TBD</i></td>
   </tr>
   <tr>
@@ -33,9 +38,10 @@ layout: default
     <td>Level 30</td>
     <td><code>R</code></td>
     <td>Android11</td>
+    <td>—</td>
     <td rowspan="2">2020</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
+  <tr class="table-notes"><td colspan="4">
     <ul>
       <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps by August 2021 and app updates by November 2021.</li>
     </ul>
@@ -47,9 +53,10 @@ layout: default
     <td>Level 29</td>
     <td><code>Q</code></td>
     <td>Android10</td>
+    <td>8.2%</td>
     <td rowspan="2">2019</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
+  <tr class="table-notes"><td colspan="4">
     <ul>
       <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must now be 29+</a> for all app updates.</li>
     </ul>
@@ -61,6 +68,7 @@ layout: default
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
+    <td>39.5%</td>
     <td>2018</td>
   </tr>
   <tr>
@@ -70,11 +78,13 @@ layout: default
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
+    <td>53.5%</td>
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
+    <td>60.8%</td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -83,11 +93,13 @@ layout: default
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
+    <td>66.2%</td>
     <td rowspan="2">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
+    <td>73.7%</td>
   </tr>
   <tr>
     <td>
@@ -96,6 +108,7 @@ layout: default
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
+    <td>84.9%</td>
     <td>2015</td>
   </tr>
   <tr>
@@ -105,14 +118,16 @@ layout: default
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
+    <td>92.3%</td>
     <td>2015</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
+    <td>94.1%</td>
     <td rowspan="2">2014</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
+  <tr class="table-notes"><td colspan="4">
     <ul>
       <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 21.</li>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSDK</code> of 21 or higher.</li>
@@ -121,21 +136,24 @@ layout: default
   <tr>
     <td rowspan="6"><b>Android 4</b></td>
     <td>
-      Level 19 <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
+      Level 19 <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
       <span class="subversion">Android 4.4</span>
     </td>
     <td><code>KITKAT</code></td>
     <td>KitKat</td>
+    <td>98.1%</td>
     <td rowspan="2">2013</td>
   </tr>
   <tr>
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
     <td><code>JELLYBEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
+    <td>98.4%</td>
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
     <td><code>JELLYBEAN_MR1</code></td>
+    <td>99.2%</td>
     <td rowspan="2">2012</td>
   </tr>
   <tr>
@@ -146,11 +164,13 @@ layout: default
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
+    <td>99.8%</td>
     <td rowspan="6">2011</td>
   </tr>
   <tr>
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
+    <td rowspan="14">—</td>
   </tr>
   <tr>
     <td rowspan="3"><b>Android 3</b></td>
@@ -219,11 +239,14 @@ layout: default
   </tr>
 </table>
 
-### Notes
+## Notes
 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
+      <p>Cumulative distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:2">
       <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
   </ol>
@@ -231,7 +254,7 @@ layout: default
 
 ## Definitions
 
-### SDKs
+#### SDKs
 
 * **`minSdk`**: The minimum SDK version your app will support. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
 * **`targetSdk`**: The SDK version that your app targets. This should always be the same as `compileSdk`.
