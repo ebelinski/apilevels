@@ -20,7 +20,7 @@ layout: default
     <td><b>Android 12 <sup class="beta">BETA</sup></b></td>
     <td>Level 31</td>
     <td><code>S</code></td>
-    <td>?</td>
+    <td><i>TBD</i></td>
     <td>2021</td>
   </tr>
   <tr>
@@ -94,31 +94,98 @@ layout: default
   </tr>
   <tr>
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
-    <td rowspan="3"><code>JELLYBEAN</code></td>
+    <td><code>JELLYBEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
+    <td><code>JELLYBEAN_MR1</code></td>
     <td rowspan="2">2012</td>
   </tr>
   <tr>
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
+    <td><code>JELLYBEAN</code></td>
   </tr>
   <tr>
-    <td>Level 15 <span class="subversion">4.0.3 – 4.0.4</span></td>
+    <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
-    <td rowspan="2">2011</td>
+    <td rowspan="6">2011</td>
   </tr>
   <tr>
-    <td>Level 14 <span class="subversion">4.0.1 – 4.0.2</span></td>
+    <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3"><b>Android 3</b></td>
+    <td>Level 13 <span class="subversion">Android 3.2</span></td>
+    <td><code>HONEYCOMB_MR2</code></td>
+    <td rowspan="3">Honeycomb</td>
+  </tr>
+  <tr>
+    <td>Level 12 <span class="subversion">Android 3.1</span></td>
+    <td><code>HONEYCOMB_MR1</code></td>
+  </tr>
+  <tr>
+    <td>Level 11 <span class="subversion">Android 3.0</span></td>
+    <td><code>HONEYCOMB</code></td>
+  </tr>
+  <tr>
+    <td rowspan="6"><b>Android 2</b></td>
+    <td>Level 10 <span class="subversion">Android 2.3.3 – 2.3.7</span></td>
+    <td><code>GINGERBREAD_MR1</code></td>
+    <td rowspan="2">Gingerbread</td>
+  </tr>
+  <tr>
+    <td>Level 9 <span class="subversion">Android 2.3.0 – 2.3.2</span></td>
+    <td><code>GINGERBREAD</code></td>
+    <td rowspan="3">2010</td>
+  </tr>
+  <tr>
+    <td>Level 8 <span class="subversion">Android 2.2</span></td>
+    <td><code>FROYO</code></td>
+    <td>Froyo</td>
+  </tr>
+  <tr>
+    <td>Level 7 <span class="subversion">Android 2.1</span></td>
+    <td><code>ECLAIR_MR1</code></td>
+    <td rowspan="3">Eclair</td>
+  </tr>
+  <tr>
+    <td>Level 6 <span class="subversion">Android 2.0.1</span></td>
+    <td><code>ECLAIR_0_1</code></td>
+    <td rowspan="5">2009</td>
+  </tr>
+  <tr>
+    <td>Level 5 <span class="subversion">Android 2.0</span></td>
+    <td><code>ECLAIR</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4"><b>Android 1</b></td>
+    <td>Level 4 <span class="subversion">Android 1.6</span></td>
+    <td><code>DONUT</code></td>
+    <td>Donut</td>
+  </tr>
+  <tr>
+    <td>Level 3 <span class="subversion">Android 1.5</span></td>
+    <td><code>CUPCAKE</code></td>
+    <td>Cupcake</td>
+  </tr>
+  <tr>
+    <td>Level 2 <span class="subversion">Android 1.1</span></td>
+    <td><code>BASE_1_1</code></td>
+    <td rowspan="2"><i>none</i></td>
+  </tr>
+  <tr>
+    <td>Level 1 <span class="subversion">Android 1.0</span></td>
+    <td><code>BASE</code></td>
+    <td>2008</td>
   </tr>
 </table>
 
 ### Notes
 
-<p><sup>1</sup> API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear.</p>
+1. API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear.
 
 ## Definitions
 
