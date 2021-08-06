@@ -15,7 +15,7 @@ layout: default
     <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version Code</a></th>
     <th>Codename</th>
     <th>
-      Dist.
+      Cumulative<br>distribution
       <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
     </th>
     <th>Year</th>
