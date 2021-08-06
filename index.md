@@ -17,14 +17,19 @@ layout: default
     <th>Year</th>
   </tr>
   <tr>
-    <td><b>Android 12 <sup class="beta">BETA</sup></b></td>
+    <td>
+      <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
+      <sup class="beta">BETA</sup>
+    </td>
     <td>Level 31</td>
     <td><code>S</code></td>
     <td><i>TBD</i></td>
     <td><i>TBD</i></td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Android 11</b></td>
+    <td rowspan="2">
+      <b><a href="https://developer.android.com/about/versions/11">Android 11</a></b>
+    </td>
     <td>Level 30</td>
     <td><code>R</code></td>
     <td>Android11</td>
@@ -36,7 +41,9 @@ layout: default
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="2"><b>Android 10</b></td>
+    <td rowspan="2">
+      <b><a href="https://developer.android.com/about/versions/10">Android 10</a></b>
+    </td>
     <td>Level 29</td>
     <td><code>Q</code></td>
     <td>Android10</td>
@@ -48,14 +55,18 @@ layout: default
     </ul>
   </td></tr>
   <tr>
-    <td><b>Android 9</b></td>
+    <td>
+      <b><a href="https://developer.android.com/about/versions/pie">Android 9</a></b>
+    </td>
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
     <td>2018</td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Android 8</b></td>
+    <td rowspan="2">
+      <b><a href="https://developer.android.com/about/versions/oreo">Android 8</a></b>
+    </td>
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
@@ -66,7 +77,9 @@ layout: default
     <td><code>O</code></td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Android 7</b></td>
+    <td rowspan="2">
+      <b><a href="https://developer.android.com/about/versions/nougat">Android 7</a></b>
+    </td>
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
@@ -77,14 +90,18 @@ layout: default
     <td><code>N</code></td>
   </tr>
   <tr>
-    <td><b>Android 6</b></td>
+    <td>
+      <b><a href="https://developer.android.com/about/versions/marshmallow">Android 6</a></b>
+    </td>
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
     <td>2015</td>
   </tr>
   <tr>
-    <td rowspan="3"><b>Android 5</b></td>
+    <td rowspan="3">
+      <b><a href="https://developer.android.com/about/versions/lollipop">Android 5</a></b>
+    </td>
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
@@ -103,7 +120,10 @@ layout: default
   </td></tr>
   <tr>
     <td rowspan="6"><b>Android 4</b></td>
-    <td>Level 19 <sup>1</sup> <span class="subversion">Android 4.4</span></td>
+    <td>
+      Level 19 <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
+      <span class="subversion">Android 4.4</span>
+    </td>
     <td><code>KITKAT</code></td>
     <td>KitKat</td>
     <td rowspan="2">2013</td>
@@ -201,7 +221,13 @@ layout: default
 
 ### Notes
 
-1. API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear.
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
 
 ## Definitions
 
