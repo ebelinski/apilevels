@@ -164,7 +164,34 @@ pre {
   }
 }
 
+.subversion {
+  display: inline-block;
+  font-size: 65%;
+  font-weight: bold;
+  background: #d3f4ec;
+  color: #557f75;
+  padding: 1px 5px;
+  border-radius: 20px;
+  vertical-align: 10%;
+  margin-left: 3px;
+}
 
+.table-notes {
+  ul {
+    margin: 0em;
+    padding-left: 1em;
+  }
+
+  code {
+    color: #333;
+    font-weight: bold;
+    font-size: 90%;
+  }
+
+  font-size: 80%;
+  background-color: #f2f2f2;
+  color: #222;
+}
 
 // TODO: Refactor this later
 @media (prefers-color-scheme: dark) {
@@ -224,33 +251,26 @@ pre {
   .color-preview {
     border: 1px solid #222 !important;
   }
-}
 
-.subversion {
-  display: inline-block;
-  font-size: 65%;
-  font-weight: bold;
-  background: #d3f4ec;
-  color: #557f75;
-  padding: 1px 5px;
-  border-radius: 20px;
-  vertical-align: 10%;
-  margin-left: 3px;
-}
-
-.table-notes {
-  ul {
-    margin: 0em;
-    padding-left: 1em;
+  .subversion {
+    background: #0a5f4a;
+    color: #d1f7ee;
   }
 
-  code {
-    color: #333;
-    font-weight: bold;
-    font-size: 90%;
-  }
+  .table-notes {
+    ul {
+      margin: 0em;
+      padding-left: 1em;
+    }
 
-  font-size: 80%;
-  background-color: #f2f2f2;
-  color: #222;
+    code {
+      color: #ddd;
+      font-weight: bold;
+      font-size: 90%;
+    }
+
+    font-size: 80%;
+    background-color: #3B3B3B;
+    color: #eee;
+  }
 }
