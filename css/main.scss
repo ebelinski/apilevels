@@ -238,3 +238,17 @@ pre {
   vertical-align: 10%;
   margin-left: 3px;
 }
+
+.table-notes {
+  ul {
+    margin: 0em;
+    padding-left: 1em;
+  }
+
+  code {
+    color: #222;
+  }
+
+  font-size: 70%;
+  background-color: #f0f0f0;
+}

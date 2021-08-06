@@ -74,7 +74,7 @@ layout: default
     <td>2015</td>
   </tr>
   <tr>
-    <td rowspan="2"><b>Android 5</b></td>
+    <td rowspan="3"><b>Android 5</b></td>
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
@@ -83,8 +83,13 @@ layout: default
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    <td>2014</td>
+    <td rowspan="2">2014</td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSDK</code> of 21 or higher.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td rowspan="6"><b>Android 4</b></td>
     <td>Level 19 <sup>1</sup> <span class="subversion">Android 4.4</span></td>
