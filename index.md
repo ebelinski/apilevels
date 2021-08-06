@@ -97,6 +97,7 @@ layout: default
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 21.</li>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSDK</code> of 21 or higher.</li>
     </ul>
   </td></tr>
