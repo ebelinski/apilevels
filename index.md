@@ -3,6 +3,8 @@ layout: default
 ---
 {::options parse_block_html="true" /}
 
+This is an overview of all Android versions and their corresponding identifiers for Android developers. Anyone is welcome to open [an issue or pull request](https://github.com/ebelinski/apilevels). Happy developing!
+
 <div id="compact-toc">
 * TOC
 {:toc}
@@ -11,7 +13,7 @@ layout: default
 <table class="full-width">
   <tr>
     <th>Android version</th>
-    <th>API/SDK Level</th>
+    <th>API / SDK Level</th>
     <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version Code</a></th>
     <th>Codename</th>
     <th>
@@ -239,19 +241,6 @@ layout: default
   </tr>
 </table>
 
-## Notes
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Cumulative distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. <a href="#fnref:1" class="reversefootnote">↩</a></p>
-    </li>
-    <li id="fn:2">
-      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
-    </li>
-  </ol>
-</div>
-
 ## Definitions
 
 #### SDKs
@@ -260,7 +249,20 @@ layout: default
 * **`targetSdk`**: The SDK version that your app targets. This should always be the same as `compileSdk`.
 * **`compileSdk`**: The SDK version that your app compiles against. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
 
+## Notes
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Cumulative distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:2">
+      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
 ## See also
 
-* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES)
+* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES official reference)
 * [Codenames, Tags, and Build Numbers](https://source.android.com/setup/start/build-numbers)

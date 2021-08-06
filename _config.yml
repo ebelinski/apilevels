@@ -9,7 +9,7 @@
 title: Android API Levels
 description: A quick reference table for Android versions, API & SDK levels, version codes, codenames, and more.
 author: Eugene Belinski
-keywords: android,api,levels
+keywords: android,api,sdk,levels,version,codes,codename
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
