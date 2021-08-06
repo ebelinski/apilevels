@@ -1,0 +1,241 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$primary: #337ab7 !default; // Override
+$primaryDark: #5ab6ff !default;
+$text: black;
+$textDark: white;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap/bootstrap";
+
+body {
+  font-size: 1.15em;
+}
+
+.container {
+  max-width: 850px;
+}
+
+h1 {
+  font-size: 2.1em;
+} h2 {
+  font-size: 1.7em;
+} h3 {
+  font-size: 1.4em;
+} h4 {
+  font-size: 1.1em;
+}
+
+#site-title {
+  text-align: center;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: black;
+  padding: 0.5em 0rem;
+  margin: 0em;
+}
+
+#site-footer {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
+  margin: 0em;
+  padding: 1.4em 0em;
+
+  p { margin: 0em; }
+}
+
+#page-content {
+  margin: 1em 0em;
+}
+
+table {
+  margin: 1em 0px;
+
+  th {
+    background: #ddd;
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 4px 10px;
+    vertical-align: top;
+
+    ol {
+      margin-bottom: 0px;
+    }
+  }
+
+  td.green {
+    background-color: #8efa93;
+  }
+
+  td.light-green {
+    background-color: #e7fae8;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.ext {
+  font-weight: bold;
+  color: #919191;
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+.beta {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0px 2px;
+  color: #cc9300;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.soft {
+  opacity: 0.7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0rem;
+
+  li:before { content: "— " };
+}
+
+.with-placeholders {
+  line-height: 2em;
+  .placeholder {
+    border: 1px solid rgb(196, 212, 241);
+    border-radius: 1em;
+    background: rgb(233, 239, 250);
+    margin: 2px 2px;
+    padding: 2px 5px;
+  }
+}
+
+pre {
+  font-size: 0.9rem;
+  padding: 9.5px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#markdown-toc {
+  font-weight: bold;
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 0.2em;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: #fafafa;
+  list-style-type: none;
+  color: #999;
+  margin: 0.5em 0em;
+
+  code {
+    color: inherit;
+    background-color: inherit;
+  }
+}
+
+#compact-toc {
+  #markdown-toc {
+    li:before { content: "" };
+
+    li {
+      display: inline-block;
+      padding: 0em 0.4em;
+
+      ul {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (min-width: 767px) {
+  .nowrap {
+    white-space: nowrap;
+  }
+}
+
+
+
+// TODO: Refactor this later
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: white;
+  }
+
+  a, a:hover {
+    color: $primaryDark;
+  }
+
+  #site-title {
+    border-color: $textDark;
+  }
+
+  #site-footer {
+    border-color: $textDark;
+  }
+
+  #markdown-toc {
+    background: #333;
+    border: 1px solid #999;
+  }
+
+  table th {
+    background: #333;
+  }
+
+  table th, table td {
+    border: 1px solid #999;
+  }
+
+  pre {
+    background-color: #333;
+    border: 1px solid #ccc;
+    color: white;
+  }
+
+  .with-placeholders {
+    .placeholder {
+      border: 1px solid #999;
+      background: #666;
+    }
+  }
+
+  table {
+    td.green {
+      background-color: #0d8321;
+    }
+
+    td.light-green {
+      background-color: #0d4d14;
+    }
+  }
+
+  .color-preview {
+    border: 1px solid #222 !important;
+  }
+}
+
+.subversion {
+  display: inline-block;
+  font-size: 70%;
+  font-weight: bold;
+  background: #e2fff8;
+  color: #557f75;
+  padding: 1px 5px;
+  border-radius: 5px;
+  vertical-align: 10%;
+}

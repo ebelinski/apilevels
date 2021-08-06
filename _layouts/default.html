@@ -1,10 +1,18 @@
----
----
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
 
-{% include header.html %}
+    {% if page.title %}
+    <h2>{{ page.title }}</h2>
+    {% endif %}
 
-<main class="flex flex-col pt-10 pb-10 md:h-screen items-center justify-center w-full space-y-6">
-  {{ content }}
-</main>
+    {{ content }}
 
-{% include footer.html %}
+    {% include footer.html %}
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

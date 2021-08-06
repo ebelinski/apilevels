@@ -1,10 +1,9 @@
 # API Levels
 
-## Develop
-* `bundle install` to install Ruby gems
-* `npm ci` to install npm packages listed in `package-lock.json`
-* `npm run start` or `npm run dev` to compile the site with development settings and run BrowserSync
+## Getting started
 
-## Build
-* `npm run build:dev` to compile the site with development settings
-* `npm run build:production` or `npm run build` to compile the site for production
+1. Install the [correct version](/.ruby-version) of Ruby, ideally using a tool such as [rbenv](https://github.com/rbenv/rbenv).
+2. Install the project Ruby dependencies: `bundle install`.
+3. Start the local Jekyll server: `bundle exec jekyll serve`.
+
+The website should now be visible in a browser at http://127.0.0.1:4000/.
