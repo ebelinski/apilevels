@@ -122,8 +122,6 @@ layout: default
 
 ## Definitions
 
-* **Version Code
-
 ### SDKs
 
 * **`minSdk`**: The minimum SDK version your app will support. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
