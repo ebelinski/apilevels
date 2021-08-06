@@ -105,13 +105,13 @@ layout: default
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
   </tr>
   <tr>
-    <td>Level 15 <span class="subversion">Android 4.0.3–4.0.4</span></td>
+    <td>Level 15 <span class="subversion">4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
     <td rowspan="2">2011</td>
   </tr>
   <tr>
-    <td>Level 14 <span class="subversion">Android 4.0.1–4.0.2</span></td>
+    <td>Level 14 <span class="subversion">4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
   </tr>
 </table>
