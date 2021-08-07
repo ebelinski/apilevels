@@ -131,7 +131,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="4">
     <ul>
       <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 21.</li>
-      <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSDK</code> of 21 or higher.</li>
+      <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 21 or higher.</li>
     </ul>
   </td></tr>
   <tr>
@@ -244,9 +244,9 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 #### SDKs
 
-* **`minSdk`**: The minimum SDK version your app will support. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
-* **`targetSdk`**: The SDK version that your app targets. This should always be the same as `compileSdk`.
-* **`compileSdk`**: The SDK version that your app compiles against. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
+* **`minSdk` (Kotlin) / `minSdkVersion` (Groovy):** The minimum SDK version your app will support, defined in `build.gradle`. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
+* **`targetSdk` (Kotlin) / `targetSdkVersion` (Groovy):** The SDK version that your app targets, defined in `build.gradle`. This should always be the same as `compileSdk`.
+* **`compileSdk` (Kotlin) / `compileSdkVersion` (Groovy):** The SDK version that your app compiles against, defined in `build.gradle`. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
 
 ## Notes
 
