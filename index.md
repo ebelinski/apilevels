@@ -12,9 +12,9 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 <table class="full-width">
   <tr>
-    <th>Android version</th>
-    <th>API / SDK Level</th>
-    <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version Code</a></th>
+    <th>Version</th>
+    <th>SDK / API level</th>
+    <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version code</a></th>
     <th>Codename</th>
     <th>
       Cumulative<br>distribution
