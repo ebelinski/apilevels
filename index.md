@@ -30,7 +30,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 31</td>
     <td><code>S</code></td>
     <td><i>TBD</i></td>
-    <td>—</td>
+    <td rowspan="2"><i>No data</i></td>
     <td><i>TBD</i></td>
   </tr>
   <tr>
@@ -40,7 +40,6 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 30</td>
     <td><code>R</code></td>
     <td>Android11</td>
-    <td>—</td>
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -55,7 +54,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 29</td>
     <td><code>Q</code></td>
     <td>Android10</td>
-    <td>8.2%</td>
+    {% include progress-cell.html percentage=8.2 %}
     <td rowspan="2">2019</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -70,7 +69,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    <td>39.5%</td>
+    {% include progress-cell.html percentage=39.5 %}
     <td>2018</td>
   </tr>
   <tr>
@@ -80,13 +79,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
-    <td>53.5%</td>
+    {% include progress-cell.html percentage=53.5 %}
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
-    <td>60.8%</td>
+    {% include progress-cell.html percentage=60.8 %}
   </tr>
   <tr>
     <td rowspan="2">
@@ -95,13 +94,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
-    <td>66.2%</td>
+    {% include progress-cell.html percentage=66.2 %}
     <td rowspan="2">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
-    <td>73.7%</td>
+    {% include progress-cell.html percentage=73.7 %}
   </tr>
   <tr>
     <td>
@@ -110,7 +109,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
-    <td>84.9%</td>
+    {% include progress-cell.html percentage=84.9 %}
     <td>2015</td>
   </tr>
   <tr>
@@ -120,13 +119,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
-    <td>92.3%</td>
+    {% include progress-cell.html percentage=92.3 %}
     <td>2015</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    <td>94.1%</td>
+    {% include progress-cell.html percentage=94.1 %}
     <td rowspan="2">2014</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -143,36 +142,36 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td><code>KITKAT</code></td>
     <td>KitKat</td>
-    <td>98.1%</td>
+    {% include progress-cell.html percentage=98.1 %}
     <td rowspan="2">2013</td>
   </tr>
   <tr>
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
     <td><code>JELLYBEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
-    <td>98.4%</td>
+    {% include progress-cell.html percentage=98.4 %}
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
     <td><code>JELLYBEAN_MR1</code></td>
-    <td>99.2%</td>
+    {% include progress-cell.html percentage=99.2 %}
     <td rowspan="2">2012</td>
   </tr>
   <tr>
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
     <td><code>JELLYBEAN</code></td>
+    {% include progress-cell.html percentage=99.8 %}
   </tr>
   <tr>
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
-    <td>99.8%</td>
+    <td rowspan="15"><i>No data</i></td>
     <td rowspan="6">2011</td>
   </tr>
   <tr>
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
-    <td rowspan="14">—</td>
   </tr>
   <tr>
     <td rowspan="3"><b>Android 3</b></td>

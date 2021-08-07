@@ -1,0 +1,17 @@
+<style>
+  #cell{{ include.percentage | remove: "." }} {
+    width: 100%
+    height: 100%;
+    background: linear-gradient(to right, #60ECAD {{ include.percentage }}%, white {{ include.percentage }}%);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    #cell{{ include.percentage | remove: "." }} {
+      background: linear-gradient(to right, #006236 {{ include.percentage }}%, rgba(0, 0, 0, 0) {{ include.percentage }}%);
+    }
+  }
+</style>
+
+<td id="cell{{ include.percentage | remove: "." }}">
+  {{ include.percentage }}%
+</td>
