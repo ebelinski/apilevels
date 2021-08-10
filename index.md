@@ -267,5 +267,5 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ## See also
 
-* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES official reference)
+* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES) official reference
 * [Codenames, Tags, and Build Numbers](https://source.android.com/setup/start/build-numbers)
