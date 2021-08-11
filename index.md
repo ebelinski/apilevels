@@ -29,7 +29,10 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td>Level 31</td>
     <td><code>S</code></td>
-    <td><i>TBD</i></td>
+    <td>
+      Snow Cone
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
     <td rowspan="2"><i>No official data</i></td>
     <td><i>TBD</i></td>
   </tr>
@@ -39,7 +42,10 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td>Level 30</td>
     <td><code>R</code></td>
-    <td>Android11</td>
+    <td>
+      Red Velvet Cake
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -53,7 +59,10 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td>Level 29</td>
     <td><code>Q</code></td>
-    <td>Android10</td>
+    <td>
+      Quince Tart
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
     {% include progress-cell.html percentage=8.2 %}
     <td rowspan="2">2019</td>
   </tr>
@@ -136,7 +145,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td rowspan="7"><b>Android 4</b></td>
     <td>
-      Level 19 <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      Level 19 <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
       <span class="subversion">Android 4.4</span>
     </td>
     <td><code>KITKAT</code></td>
@@ -260,7 +269,10 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>Cumulative usage distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
-      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+      <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
+    </li>
+    <li id="fn:3">
+      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
