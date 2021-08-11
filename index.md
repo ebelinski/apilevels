@@ -245,7 +245,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 2 <span class="subversion">Android 1.1</span></td>
     <td><code>BASE_1_1</code></td>
-    <td rowspan="2"><i>none</i></td>
+    <td rowspan="2"><i>None</i></td>
   </tr>
   <tr>
     <td>Level 1 <span class="subversion">Android 1.0</span></td>
