@@ -17,7 +17,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version code</a></th>
     <th>Codename</th>
     <th>
-      Cumulative<br>distribution
+      Cumulative<br>usage
       <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
     </th>
     <th>Year</th>
@@ -257,7 +257,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Cumulative distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+      <p>Cumulative usage distribution figures were retrieved directly from Android Studio Preview Bumblebee | 2.21.1.1 Canary 6 on <b>August 6, 2021</b>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
       <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:1" class="reversefootnote">↩</a></p>
