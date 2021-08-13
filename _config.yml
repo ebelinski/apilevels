@@ -7,9 +7,9 @@
 
 # Site settings
 title: Android API Levels
-description: A quick reference table for Android versions, API & SDK levels, version codes, codenames, and more.
+description: A quick reference table of Android versions with SDK & API levels, version codes, codenames, cumulative usage, and more.
 author: Eugene Belinski
-keywords: android,api,sdk,levels,version,codes,codename
+keywords: android,api,sdk,levels,version,codes,codename,usage,market,share,distribution
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
