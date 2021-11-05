@@ -162,24 +162,21 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
     <td><code>JELLYBEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
-    {% include progress-cell.html percentage=98.7 %}
+    <td rowspan="18"><i>No data</i></td>
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
     <td><code>JELLYBEAN_MR1</code></td>
-    {% include progress-cell.html percentage=99.8 %}
     <td rowspan="2">2012</td>
   </tr>
   <tr>
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
     <td><code>JELLYBEAN</code></td>
-    {% include progress-cell.html percentage=99.9 %}
   </tr>
   <tr>
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
-    <td rowspan="15"><i>No data</i></td>
     <td rowspan="6">2011</td>
   </tr>
   <tr>
