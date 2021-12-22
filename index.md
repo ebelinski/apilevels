@@ -22,6 +22,20 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
     <th>Year</th>
   </tr>
+  <tr class="unannounced">
+    <td>
+      <b>Android 13</b>
+      <sup class="beta">DEV</sup>
+    </td>
+    <td>Level 32</td>
+    <td><code>T</code></td>
+    <td>
+      Tiramisu
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
+    <td><i>No data</i></td>
+    <td><i>TBD</i></td>
+  </tr>
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
