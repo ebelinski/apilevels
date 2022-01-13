@@ -22,10 +22,10 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
     <th>Year</th>
   </tr>
-  <tr class="unannounced">
+  <tr>
     <td>
-      <b>Android 13</b>
-      <sup class="beta">DEV</sup>
+      <b>Android 12L</b>
+      <sup class="beta">BETA</sup>
     </td>
     <td>Level 32</td>
     <td><code>T</code></td>
