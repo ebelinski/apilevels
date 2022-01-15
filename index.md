@@ -46,7 +46,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    <td><i>No data</i></td>
+    {% include progress-cell.html percentage=2.3 %}
     <td>2021</td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Red Velvet Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html percentage=33.3 %}
+    {% include progress-cell.html percentage=38.6 %}
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -77,7 +77,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Quince Tart
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html percentage=61.9 %}
+    {% include progress-cell.html percentage=65.1 %}
     <td rowspan="2">2019</td>
   </tr>
   <tr class="table-notes"><td colspan="4">
@@ -92,7 +92,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html percentage=76.2 %}
+    {% include progress-cell.html percentage=78.4 %}
     <td>2018</td>
   </tr>
   <tr>
@@ -102,13 +102,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
-    {% include progress-cell.html percentage=83.9 %}
+    {% include progress-cell.html percentage=85.1 %}
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
-    {% include progress-cell.html percentage=87.2 %}
+    {% include progress-cell.html percentage=88.2 %}
   </tr>
   <tr>
     <td rowspan="2">
@@ -117,13 +117,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
-    {% include progress-cell.html percentage=89.3 %}
+    {% include progress-cell.html percentage=90.2 %}
     <td rowspan="2">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
-    {% include progress-cell.html percentage=92.4 %}
+    {% include progress-cell.html percentage=93.3 %}
   </tr>
   <tr>
     <td>
@@ -132,7 +132,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
-    {% include progress-cell.html percentage=96.0 %}
+    {% include progress-cell.html percentage=96.5 %}
     <td>2015</td>
   </tr>
   <tr>
@@ -142,16 +142,16 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
-    {% include progress-cell.html percentage=98.2 %}
+    {% include progress-cell.html percentage=98.4 %}
     <td>2015</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    {% include progress-cell.html percentage=98.6 %}
+    <td rowspan="22"><i>No data</i></td>
     <td rowspan="2">2014</td>
   </tr>
-  <tr class="table-notes"><td colspan="4">
+  <tr class="table-notes"><td colspan="3">
     <ul>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 21 or higher.</li>
     </ul>
@@ -164,10 +164,9 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td><code>KITKAT</code></td>
     <td>KitKat</td>
-    {% include progress-cell.html percentage=99.6 %}
     <td rowspan="3">2013</td>
   </tr>
-  <tr class="table-notes"><td colspan="4">
+  <tr class="table-notes"><td colspan="3">
     <ul>
       <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 19.</li>
     </ul>
@@ -176,7 +175,6 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
     <td><code>JELLYBEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
-    <td rowspan="18"><i>No data</i></td>
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
@@ -277,7 +275,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Cumulative usage distribution figures were last updated on <b>November 3, 2021</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+      <p>Cumulative usage distribution figures were last updated on <b>January 6, 2022</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
       <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
