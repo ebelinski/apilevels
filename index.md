@@ -64,7 +64,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="4">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps by August 2021 and app updates by November 2021.</li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps and app updates.</li>
     </ul>
   </td></tr>
   <tr>
