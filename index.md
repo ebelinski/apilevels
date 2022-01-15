@@ -24,7 +24,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
-      <b>Android 12L</b>
+      <b><a href="https://developer.android.com/about/versions/12/12L">Android 12L</a></b>
       <sup class="beta">BETA</sup>
     </td>
     <td>Level 32</td>
