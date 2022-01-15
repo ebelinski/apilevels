@@ -68,7 +68,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="2">
+    <td>
       <b><a href="https://developer.android.com/about/versions/10">Android 10</a></b>
     </td>
     <td>Level 29</td>
@@ -78,13 +78,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html percentage=65.1 %}
-    <td rowspan="2">2019</td>
+    <td>2019</td>
   </tr>
-  <tr class="table-notes"><td colspan="4">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must now be 29+</a> for all app updates.</li>
-    </ul>
-  </td></tr>
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/pie">Android 9</a></b>
