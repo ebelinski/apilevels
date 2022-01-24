@@ -295,6 +295,19 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
 </table>
 
+#### Code files
+
+<table class="full-width">
+  <tr>
+    <th>Variable</th>
+    <th>Definition</th>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>Build.VERSION.SDK_INT</code></td>
+    <td>The SDK version of the Android OS currently running on the user's device. For example, on a device running Android 11, this value will be <code>30</code> (aka <code>Build.VERSION_CODES.R</code>), even if the target and compile SDK of the app is different.</td>
+  </tr>
+</table>
+
 ## Footnotes
 
 <div class="footnotes">
