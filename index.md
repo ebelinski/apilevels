@@ -22,12 +22,12 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
     <th>Year</th>
   </tr>
-  <tr>
+  <tr class="unannounced">
     <td>
-      <b><a href="https://developer.android.com/about/versions/12/12L">Android 12L</a></b>
-      <sup class="beta">BETA</sup>
+      <b>Android 13</b>
+      <sup class="beta">DEV</sup>
     </td>
-    <td>Level 32</td>
+    <td>Level 33</td>
     <td><code>T</code></td>
     <td>
       Tiramisu
@@ -37,15 +37,25 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><i>TBD</i></td>
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
     </td>
-    <td>Level 31</td>
-    <td><code>S</code></td>
     <td>
+      Level 32 
+      <span class="subversion">Android 12L</span> 
+      <sup class="beta">BETA</sup>
+    </td>
+    <td><code>S_V2</code></td>
+    <td rowspan="2">
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
+    <td><i>No data</i></td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>Level 31 <span class="subversion">Android 12</span></td>
+    <td><code>S</code></td>
     {% include progress-cell.html percentage=2.3 %}
     <td>2021</td>
   </tr>
