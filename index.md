@@ -270,11 +270,30 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ## Definitions
 
-#### SDKs
+#### Gradle files
 
-* **`minSdk` (Kotlin) / `minSdkVersion` (Groovy):** The minimum SDK version your app will support, defined in `build.gradle`. For example, if your `minSdk` is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.
-* **`targetSdk` (Kotlin) / `targetSdkVersion` (Groovy):** The SDK version that your app targets, defined in `build.gradle`. This should always be the same as `compileSdk`.
-* **`compileSdk` (Kotlin) / `compileSdkVersion` (Groovy):** The SDK version that your app compiles against, defined in `build.gradle`. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
+<table class="full-width">
+  <tr>
+    <th>Kotlin variable</th>
+    <th>Groovy variable</th>
+    <th>Definition</th>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>minSdk</code></td>
+    <td class="nowrap"><code>minSdkVersion</code></td>
+    <td>The minimum SDK version your app will support, defined in <code>build.gradle</code>. For example, if your <code>minSdk</code> is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>targetSdk</code></td>
+    <td class="nowrap"><code>targetSdkVersion</code></td>
+    <td>The SDK version that your app targets, defined in <code>build.gradle</code>. This should always be the same as <code>compileSdk</code>.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>compileSdk</code></td>
+    <td class="nowrap"><code>compileSdkVersion</code></td>
+    <td>The SDK version that your app compiles against, defined in <code>build.gradle</code>. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as <code>targetSdk</code>.</td>
+  </tr>
+</table>
 
 ## Footnotes
 
