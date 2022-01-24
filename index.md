@@ -266,7 +266,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 * **`targetSdk` (Kotlin) / `targetSdkVersion` (Groovy):** The SDK version that your app targets, defined in `build.gradle`. This should always be the same as `compileSdk`.
 * **`compileSdk` (Kotlin) / `compileSdkVersion` (Groovy):** The SDK version that your app compiles against, defined in `build.gradle`. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as `targetSdk`.
 
-## Notes
+## Footnotes
 
 <div class="footnotes">
   <ol>
