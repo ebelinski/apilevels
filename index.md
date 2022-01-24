@@ -274,8 +274,8 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 <table class="full-width">
   <tr>
-    <th>Kotlin variable</th>
-    <th>Groovy variable</th>
+    <th class="nowrap">Kotlin variable</th>
+    <th class="nowrap">Groovy variable</th>
     <th>Definition</th>
   </tr>
   <tr>
