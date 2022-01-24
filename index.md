@@ -248,11 +248,12 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 2 <span class="subversion">Android 1.1</span></td>
     <td><code>BASE_1_1</code></td>
-    <td rowspan="2"><i>None</i></td>
+    <td>Petit Four</td>
   </tr>
   <tr>
     <td>Level 1 <span class="subversion">Android 1.0</span></td>
     <td><code>BASE</code></td>
+    <td><i>None</i></td>
     <td>2008</td>
   </tr>
 </table>
