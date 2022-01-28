@@ -162,7 +162,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="7"><b>Android 4</b></td>
+    <td rowspan="8"><b>Android 4</b></td>
     <td>
       Level 19 <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
       <span class="subversion">Android 4.4</span>
@@ -200,6 +200,11 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><a href="https://developer.android.com/jetpack/androidx">AndroidX</a> Libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">do not support Android versions</a> below API 14.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td rowspan="3"><b>Android 3</b></td>
     <td>Level 13 <span class="subversion">Android 3.2</span></td>
