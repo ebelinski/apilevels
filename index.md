@@ -27,7 +27,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <b>Android 13</b>
       <sup class="beta">DEV</sup>
     </td>
-    <td>Level 33</td>
+    <td>Level 33 <span class="subversion">Android 13.0</span></td>
     <td><code>T</code></td>
     <td>
       Tiramisu
@@ -40,11 +40,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
     </td>
-    <td>
-      Level 32 
-      <span class="subversion">Android 12L</span> 
-      <sup class="beta">BETA</sup>
-    </td>
+    <td>Level 32 <span class="subversion">Android 12L</span><sup class="beta">BETA</sup></td>
     <td><code>S_V2</code></td>
     <td rowspan="2">
       Snow Cone
@@ -54,7 +50,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>TBD</td>
   </tr>
   <tr>
-    <td>Level 31 <span class="subversion">Android 12</span></td>
+    <td>Level 31 <span class="subversion">Android 12.0</span></td>
     <td><code>S</code></td>
     {% include progress-cell.html percentage=2.3 %}
     <td>2021</td>
@@ -63,7 +59,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/11">Android 11</a></b>
     </td>
-    <td>Level 30</td>
+    <td>Level 30 <span class="subversion">Android 11.0</span></td>
     <td><code>R</code></td>
     <td>
       Red Velvet Cake
@@ -81,7 +77,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>
       <b><a href="https://developer.android.com/about/versions/10">Android 10</a></b>
     </td>
-    <td>Level 29</td>
+    <td>Level 29 <span class="subversion">Android 10.0</span></td>
     <td><code>Q</code></td>
     <td>
       Quince Tart
@@ -94,7 +90,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>
       <b><a href="https://developer.android.com/about/versions/pie">Android 9</a></b>
     </td>
-    <td>Level 28</td>
+    <td>Level 28 <span class="subversion">Android 9.0</span></td>
     <td><code>P</code></td>
     <td>Pie</td>
     {% include progress-cell.html percentage=78.4 %}
@@ -134,7 +130,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>
       <b><a href="https://developer.android.com/about/versions/marshmallow">Android 6</a></b>
     </td>
-    <td>Level 23</td>
+    <td>Level 23 <span class="subversion">Android 6.0</span></td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
     {% include progress-cell.html percentage=96.5 %}
