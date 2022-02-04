@@ -25,9 +25,8 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="unannounced">
     <td>
       <b>Android 13</b>
-      <sup class="beta">DEV</sup>
     </td>
-    <td>Level 33 <span class="subversion">Android 13.0</span></td>
+    <td>Level 33 <span class="subversion">Android 13.0</span><sup class="beta">DEV</sup></td>
     <td><code>T</code></td>
     <td>
       Tiramisu
