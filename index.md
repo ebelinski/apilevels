@@ -22,7 +22,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
     <th>Year</th>
   </tr>
-  <tr class="unannounced">
+  <tr>
     <td>
       <b>Android 13</b>
       <sup class="beta">DEV</sup>
