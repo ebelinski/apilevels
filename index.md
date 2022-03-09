@@ -33,7 +33,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    <td><i>No data</i></td>
+    <td rowspan="2"><i>No data</i></td>
     <td rowspan="2"><i>TBA</i></td>
   </tr>
   <tr>
@@ -50,7 +50,6 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    <td><i>No data</i></td>
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
