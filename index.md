@@ -41,8 +41,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
     </td>
     <td>
-      Level 32 
-      <span class="subversion">Android 12L</span> 
+      Level 32
+      <span class="subversion">Android 12L</span>
       <sup class="beta">BETA</sup>
     </td>
     <td><code>S_V2</code></td>
@@ -202,7 +202,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><a href="https://developer.android.com/jetpack/androidx">AndroidX</a> Libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">do not support Android versions</a> below API 14.</li>
+      <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries require a <code>minSdk</code> of 14 or higher.</li>
     </ul>
   </td></tr>
   <tr>
