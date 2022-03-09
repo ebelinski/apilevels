@@ -152,7 +152,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
     <td rowspan="23"><i>No data</i></td>
-    <td rowspan="2">2014</td>
+    <td rowspan="3">2014</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
@@ -162,11 +162,18 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td rowspan="8"><b>Android 4</b></td>
     <td>
-      Level 19 <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
+      Level 20
+      <span class="subversion">Android 4.4W</span> <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
+    </td>
+    <td><code>KITKAT_WATCH</code></td>
+    <td rowspan="2">KitKat</td>
+  </tr>
+  <tr>
+    <td>
+      Level 19
       <span class="subversion">Android 4.4</span>
     </td>
     <td><code>KITKAT</code></td>
-    <td>KitKat</td>
     <td rowspan="3">2013</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -322,7 +329,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
     </li>
     <li id="fn:3">
-      <p>API Level 20 is missing from the table because it matches Android 4.4W, the version that makes Android available for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
