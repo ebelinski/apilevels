@@ -202,7 +202,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries require a <code>minSdk</code> of 14 or higher.</li>
+      <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">require</a> a <code>minSdk</code> of 14 or higher.</li>
     </ul>
   </td></tr>
   <tr>
