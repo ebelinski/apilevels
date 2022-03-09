@@ -34,7 +34,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     <td><i>No data</i></td>
-    <td><i>TBD</i></td>
+    <td rowspan="2"><i>TBA</i></td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -51,7 +51,6 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     <td><i>No data</i></td>
-    <td>TBD</td>
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
