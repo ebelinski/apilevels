@@ -153,7 +153,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    <td rowspan="22"><i>No data</i></td>
+    <td rowspan="23"><i>No data</i></td>
     <td rowspan="2">2014</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -194,7 +194,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
-    <td rowspan="6">2011</td>
+    <td rowspan="7">2011</td>
   </tr>
   <tr>
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
