@@ -168,7 +168,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">5.0</td>
     <td>Level 21</td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    <td rowspan="23"><i>No data</i></td>
+    <td rowspan="24"><i>No data</i></td>
     <td rowspan="3">2014</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
