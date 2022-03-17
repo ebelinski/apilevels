@@ -53,7 +53,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
   </tr>
-  
+
   <tr>
     <td>12</td>
     <td class="level">Level 31</td>
@@ -75,7 +75,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     {% include progress-cell.html percentage=44.3 %}
     <td rowspan="2">2020</td>
   </tr>
-  <tr class="table-notes"><td colspan="4">
+  <tr class="table-notes"><td colspan="3">
     <ul>
       <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps and app updates.</li>
     </ul>
@@ -215,14 +215,14 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>JELLYBEAN</code></td>
   </tr>
   <tr>
-    <td>4.0.3 – 4.0.4</td>
+    <td>4.0.3–4</td>
     <td class="level">Level 15</td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
     <td rowspan="7">2011</td>
   </tr>
   <tr>
-    <td rowspan="2">4.0.1 – 4.0.2</td>
+    <td rowspan="2">4.0.1–2</td>
     <td class="level">Level 14</td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
   </tr>
@@ -252,13 +252,13 @@ This is an overview of all Android versions and their corresponding identifiers 
 
   <tr>
     <td rowspan="6"><b>Android 2</b></td>
-    <td>2.3.3 – 2.3.7</td>
+    <td>2.3.3–7</td>
     <td class="level">Level 10</td>
     <td><code>GINGERBREAD_MR1</code></td>
     <td rowspan="2">Gingerbread</td>
   </tr>
   <tr>
-    <td>2.3.0 – 2.3.2</td>
+    <td>2.3.0–2</td>
     <td class="level">Level 9</td>
     <td><code>GINGERBREAD</code></td>
     <td rowspan="3">2010</td>
