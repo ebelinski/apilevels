@@ -12,6 +12,6 @@
   }
 </style>
 
-<td id="cell{{ include.percentage | remove: "." }}">
+<td rowspan="{{ include.rowspan }}" id="cell{{ include.percentage | remove: "." }}">
   {{ include.percentage }}%
 </td>
