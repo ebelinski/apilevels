@@ -72,7 +72,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/distribute/play-policies">must be 30+</a> for new apps and app updates.</li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and updates (except for Wear OS apps).</li>
     </ul>
   </td></tr>
   <tr>
@@ -89,15 +89,20 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>2019</td>
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/pie">Android 9</a></b>
     </td>
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html rowspan=1 percentage=80.4 %}
-    <td>2018</td>
+    {% include progress-cell.html rowspan=2 percentage=80.4 %}
+    <td rowspan="2">2018</td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 28+</a> for new <b>Wear OS</b> apps and app updates.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/oreo">Android 8</a></b>
