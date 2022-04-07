@@ -59,7 +59,8 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 31+</a> for new apps in August 2022 and updates in November 2022. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 31+</a> for new apps by August 2022 and updates by November 2022. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 31+</a> for <i>all existing apps</i> by November 2023. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
     </ul>
   </td></tr>
   <tr>
@@ -77,7 +78,8 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and updates. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and app updates. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 30+</a> for <i>all existing apps</i> by November 2022. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
     </ul>
   </td></tr>
   <tr>
@@ -173,7 +175,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="9"><b>Android 4</b></td>
     <td>
       Level 20
-      <span class="subversion">Android 4.4W</span> <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>
+      <span class="subversion">Android 4.4W</span> <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>
     </td>
     <td><code>KITKAT_WATCH</code></td>
     <td rowspan="2">KitKat</td>
@@ -342,7 +344,10 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>This requirement excludes new Wear OS apps and updates, which still only require a <code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">of 28 or higher</a>. <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:4">
-      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:4" class="reversefootnote">↩</a></p>
+      <p>In 2022, Google began imposing <a href="https://support.google.com/googleplay/android-developer/answer/11926878">minimum <code>targetSdk</code> requirements for existing apps</a>, in addition new apps and app updates. Existing apps that are not updated to meet <code>targetSdk</code> requirements by their deadlines will be <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">subject to restrictions</a>. <a href="#fnref:4" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:5">
+      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:5" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
