@@ -344,7 +344,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>This requirement excludes new Wear OS apps and updates, which still only require a <code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">of 28 or higher</a>. <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:4">
-      <p>In 2022, Google began imposing <a href="https://support.google.com/googleplay/android-developer/answer/11926878">minimum <code>targetSdk</code> requirements for existing apps</a>, in addition new apps and app updates. Existing apps that are not updated to meet <code>targetSdk</code> requirements by their deadlines will be <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">subject to restrictions</a>. <a href="#fnref:4" class="reversefootnote">↩</a></p>
+      <p>In 2022, Google began imposing <a href="https://support.google.com/googleplay/android-developer/answer/11926878">minimum <code>targetSdk</code> requirements for existing apps</a>, in addition new apps and app updates. Existing apps that are not updated to meet <code>targetSdk</code> requirements by their deadlines will be <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">subject to restrictions</a>. This requirement excludes Wear OS apps. <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:5">
       <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:5" class="reversefootnote">↩</a></p>
