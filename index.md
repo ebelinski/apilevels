@@ -37,7 +37,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2"><i>TBA</i></td>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td rowspan="3">
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
     </td>
     <td>
@@ -54,9 +54,14 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
     <td><code>S</code></td>
-    {% include progress-cell.html rowspan=1 percentage=9.5 %}
-    <td>2021</td>
+    {% include progress-cell.html rowspan=2 percentage=9.5 %}
+    <td rowspan="2">2021</td>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 31+</a> for new apps in August 2022 and updates in November 2022. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+    </ul>
+  </td></tr>
   <tr>
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/11">Android 11</a></b>
@@ -72,7 +77,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and updates (except for Wear OS apps).</li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and updates. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
     </ul>
   </td></tr>
   <tr>
@@ -100,7 +105,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 28+</a> for new <b>Wear OS</b> apps and app updates.</li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 28+</a> for new Wear OS apps and Wear OS app updates.</li>
     </ul>
   </td></tr>
   <tr>
@@ -168,7 +173,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="9"><b>Android 4</b></td>
     <td>
       Level 20
-      <span class="subversion">Android 4.4W</span> <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
+      <span class="subversion">Android 4.4W</span> <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>
     </td>
     <td><code>KITKAT_WATCH</code></td>
     <td rowspan="2">KitKat</td>
@@ -334,7 +339,10 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
     </li>
     <li id="fn:3">
-      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+      <p>This requirement excludes new Wear OS apps and updates, which still only require a <code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">of 28 or higher</a>. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
