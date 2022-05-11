@@ -25,7 +25,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
-      <sup class="beta">DEV</sup>
+      <sup class="beta">BETA</sup>
     </td>
     <td>Level 33</td>
     <td><code>T</code></td>
@@ -43,7 +43,6 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>
       Level 32
       <span class="subversion">Android 12L</span>
-      <sup class="beta">BETA</sup>
     </td>
     <td><code>S_V2</code></td>
     <td rowspan="2">
