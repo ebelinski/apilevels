@@ -21,6 +21,10 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
     </th>
     <th>Year</th>
+    <th>
+      Last<br>Security<br>Update
+      <sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>
+    </th>
   </tr>
   <tr>
     <td>
@@ -35,6 +39,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td rowspan="2"><i>No data</i></td>
     <td rowspan="2"><i>TBA</i></td>
+    <td rowspan="7" class="green">2022-05-01</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -103,6 +108,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Pie</td>
     {% include progress-cell.html rowspan=2 percentage=81.6 %}
     <td rowspan="2">2018</td>
+    <td rowspan="2" class="yellow">2022-01-01</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
@@ -118,11 +124,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Oreo</td>
     {% include progress-cell.html rowspan=1 percentage=87.5 %}
     <td rowspan="2">2017</td>
+    <td class="yellow">2021-10-01</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
     {% include progress-cell.html rowspan=1 percentage=90.2 %}
+    <td class="red">2021-01-01</td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -133,11 +141,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Nougat</td>
     {% include progress-cell.html rowspan=1 percentage=91.8 %}
     <td rowspan="2">2016</td>
+    <td class="red">2019-10-01</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
     {% include progress-cell.html rowspan=1 percentage=94.6 %}
+    <td class="red">2019-08-01</td>
   </tr>
   <tr>
     <td>
@@ -148,6 +158,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=97.1 %}
     <td>2015</td>
+    <td class="red">2018-08-01</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -158,6 +169,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Lollipop</td>
     {% include progress-cell.html rowspan=1 percentage=98.7 %}
     <td>2015</td>
+    <td rowspan="3" class="red">2018-03-01</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
@@ -178,6 +190,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td><code>KITKAT_WATCH</code></td>
     <td rowspan="2">KitKat</td>
+    <td rowspan="22"><i>No data</i></td>
   </tr>
   <tr>
     <td>
@@ -347,6 +360,9 @@ This is an overview of all Android versions and their corresponding identifiers 
     </li>
     <li id="fn:5">
       <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:5" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Security patch levels were last updated on <b>June 1, 2022</b> using data from <a href="https://source.android.com/security/bulletin">AOSP Security Bulletins</a>. These dates may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:6" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
