@@ -22,8 +22,8 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
     <th>Year</th>
     <th>
-      Last<br>Security<br>Update
-      <sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>
+      Last<br>security<br><span class="text-nowrap">update
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></span>
     </th>
   </tr>
   <tr>
@@ -35,11 +35,11 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>T</code></td>
     <td>
       Tiramisu
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
     </td>
     <td rowspan="2"><i>No data</i></td>
     <td rowspan="2"><i>TBA</i></td>
-    <td rowspan="7" class="green">2022-05-01</td>
+    <td rowspan="7" class="green">2022-05</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -52,7 +52,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>S_V2</code></td>
     <td rowspan="2">
       Snow Cone
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
     </td>
   </tr>
   <tr>
@@ -63,8 +63,8 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 31+</a> for new apps by August 2022 and updates by November 2022. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
-      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 31+</a> for <i>all existing apps</i> by November 2023. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 31+</a> for new apps by August 2022 and updates by November 2022. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 31+</a> for <i>all existing apps</i> by November 2023. <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></li>
     </ul>
   </td></tr>
   <tr>
@@ -75,15 +75,15 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>R</code></td>
     <td>
       Red Velvet Cake
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
     </td>
     {% include progress-cell.html rowspan=2 percentage=47.7 %}
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and app updates. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
-      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 30+</a> for <i>all existing apps</i> by November 2022. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for new apps and app updates. <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
+      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 30+</a> for <i>all existing apps</i> by November 2022. <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></li>
     </ul>
   </td></tr>
   <tr>
@@ -94,7 +94,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>Q</code></td>
     <td>
       Quince Tart
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=70.3 %}
     <td>2019</td>
@@ -108,7 +108,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Pie</td>
     {% include progress-cell.html rowspan=2 percentage=81.6 %}
     <td rowspan="2">2018</td>
-    <td rowspan="2" class="yellow">2022-01-01</td>
+    <td rowspan="2" class="yellow">2022-01</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
@@ -124,13 +124,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Oreo</td>
     {% include progress-cell.html rowspan=1 percentage=87.5 %}
     <td rowspan="2">2017</td>
-    <td class="yellow">2021-10-01</td>
+    <td class="yellow">2021-10</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
     {% include progress-cell.html rowspan=1 percentage=90.2 %}
-    <td class="red">2021-01-01</td>
+    <td class="red">2021-01</td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -141,13 +141,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Nougat</td>
     {% include progress-cell.html rowspan=1 percentage=91.8 %}
     <td rowspan="2">2016</td>
-    <td class="red">2019-10-01</td>
+    <td class="red">2019-10</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
     {% include progress-cell.html rowspan=1 percentage=94.6 %}
-    <td class="red">2019-08-01</td>
+    <td class="red">2019-08</td>
   </tr>
   <tr>
     <td>
@@ -158,7 +158,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=97.1 %}
     <td>2015</td>
-    <td class="red">2018-08-01</td>
+    <td class="red">2018-08</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -169,7 +169,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="2">Lollipop</td>
     {% include progress-cell.html rowspan=1 percentage=98.7 %}
     <td>2015</td>
-    <td rowspan="3" class="red">2018-03-01</td>
+    <td rowspan="3" class="red">2018-03</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
@@ -186,7 +186,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="9"><b>Android 4</b></td>
     <td>
       Level 20
-      <span class="subversion">Android 4.4W</span> <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>
+      <span class="subversion">Android 4.4W</span> <sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>
     </td>
     <td><code>KITKAT_WATCH</code></td>
     <td rowspan="2">KitKat</td>
@@ -350,19 +350,19 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>Cumulative usage distribution figures were last updated on <b>May 31, 2022</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
-      <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
+      <p>Security patch levels were last updated on <b>June 1, 2022</b> using <a href="https://source.android.com/security/bulletin">AOSP Security Bulletins</a>. These dates may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:2" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:3">
-      <p>This requirement excludes new Wear OS apps and updates, which still only require a <code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">of 28 or higher</a>. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+      <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly.</p>
     </li>
     <li id="fn:4">
-      <p>In 2022, Google began imposing <a href="https://support.google.com/googleplay/android-developer/answer/11926878">minimum <code>targetSdk</code> requirements for existing apps</a>, in addition new apps and app updates. Existing apps that are not updated to meet <code>targetSdk</code> requirements by their deadlines will be <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">subject to restrictions</a>. This requirement excludes Wear OS apps. <a href="#fnref:4" class="reversefootnote">↩</a></p>
+      <p>This requirement excludes new Wear OS apps and updates, which still only require a <code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">of 28 or higher</a>. <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:5">
-      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:5" class="reversefootnote">↩</a></p>
+      <p>In 2022, Google began imposing <a href="https://support.google.com/googleplay/android-developer/answer/11926878">minimum <code>targetSdk</code> requirements for existing apps</a>, in addition new apps and app updates. Existing apps that are not updated to meet <code>targetSdk</code> requirements by their deadlines will be <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">subject to restrictions</a>. This requirement excludes Wear OS apps. <a href="#fnref:5" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:6">
-      <p>Security patch levels were last updated on <b>June 1, 2022</b> using data from <a href="https://source.android.com/security/bulletin">AOSP Security Bulletins</a>. These dates may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:6" class="reversefootnote">↩</a></p>
+      <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:6" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
