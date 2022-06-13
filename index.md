@@ -289,11 +289,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>2008</td>
   </tr>
 </table>
+</div>
 
 ## Definitions
 
 #### Gradle files
 
+<div class="table-responsive">
 <table class="full-width">
   <tr>
     <th class="nowrap">Kotlin variable</th>
@@ -316,9 +318,11 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>The SDK version that your app compiles against, defined in <code>build.gradle</code>. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as <code>targetSdk</code>.</td>
   </tr>
 </table>
+</div>
 
 #### Code files
 
+<div class="table-responsive">
 <table class="full-width">
   <tr>
     <th>Variable</th>
