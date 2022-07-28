@@ -25,11 +25,25 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
+      <b>Android U</b>
+      <sup class="beta">DEVELOPMENT</sup>
+    </td>
+    <td>Level 10000</td>
+    <td><code>UPSIDE_DOWN_CAKE</code></td>
+    <td>
+      Upside Down Cake
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
+    <td rowspan="2"><i>No data</i></td>
+    <td rowspan="2"><i>TBA</i></td>
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
       <sup class="beta">BETA</sup>
     </td>
     <td>Level 33</td>
-    <td><code>T</code></td>
+    <td><code>TIRAMISU</code></td>
     <td>
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
