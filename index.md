@@ -29,7 +29,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup class="beta">BETA</sup>
     </td>
     <td>Level 33</td>
-    <td><code>T</code></td>
+    <td><code>TIRAMISU</code></td>
     <td>
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
