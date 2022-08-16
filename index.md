@@ -26,7 +26,6 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
-      <sup class="beta">BETA</sup>
     </td>
     <td>Level 33</td>
     <td><code>TIRAMISU</code></td>
@@ -35,7 +34,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     <td rowspan="2"><i>No data</i></td>
-    <td rowspan="2"><i>TBA</i></td>
+    <td rowspan="2">2022</td>
   </tr>
   <tr>
     <td rowspan="3">
