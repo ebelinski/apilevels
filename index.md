@@ -194,17 +194,17 @@ This is an overview of all Android versions and their corresponding identifiers 
   </td></tr>
   <tr>
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
-    <td><code>JELLYBEAN_MR2</code></td>
+    <td><code>JELLY_BEAN_MR2</code></td>
     <td rowspan="3">Jelly Bean</td>
   </tr>
   <tr>
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
-    <td><code>JELLYBEAN_MR1</code></td>
+    <td><code>JELLY_BEAN_MR1</code></td>
     <td rowspan="2">2012</td>
   </tr>
   <tr>
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
-    <td><code>JELLYBEAN</code></td>
+    <td><code>JELLY_BEAN</code></td>
   </tr>
   <tr>
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
