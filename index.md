@@ -33,7 +33,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=0.45 %}
+    {% include progress-cell.html rowspan=1 percentage=0.7 %}
     <td rowspan="2">2022</td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=3 percentage=26.47 %}
+    {% include progress-cell.html rowspan=3 percentage=30.0 %}
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
@@ -72,7 +72,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Red Velvet Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=53.85 %}
+    {% include progress-cell.html rowspan=2 percentage=56.2 %}
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -91,7 +91,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Quince Tart
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=74.0 %}
+    {% include progress-cell.html rowspan=1 percentage=75.3 %}
     <td>2019</td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html rowspan=2 percentage=84.0 %}
+    {% include progress-cell.html rowspan=2 percentage=84.8 %}
     <td rowspan="2">2018</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -116,13 +116,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
-    {% include progress-cell.html rowspan=1 percentage=89.4 %}
+    {% include progress-cell.html rowspan=1 percentage=89.9 %}
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
-    {% include progress-cell.html rowspan=1 percentage=91.8 %}
+    {% include progress-cell.html rowspan=1 percentage=92.0 %}
   </tr>
   <tr>
     <td rowspan="2">
@@ -131,13 +131,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
-    {% include progress-cell.html rowspan=1 percentage=93.1 %}
+    {% include progress-cell.html rowspan=1 percentage=93.2 %}
     <td rowspan="2">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
-    {% include progress-cell.html rowspan=1 percentage=95.5 %}
+    {% include progress-cell.html rowspan=1 percentage=95.8 %}
   </tr>
   <tr>
     <td>
@@ -146,7 +146,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
-    {% include progress-cell.html rowspan=1 percentage=97.6 %}
+    {% include progress-cell.html rowspan=1 percentage=97.7 %}
     <td>2015</td>
   </tr>
   <tr>
@@ -162,7 +162,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
     <td><code>LOLLIPOP</code>, <code>L</code></td>
-    {% include progress-cell.html rowspan=2 percentage=99.1 %}
+    {% include progress-cell.html rowspan=2 percentage=99.2 %}
     <td rowspan="3">2014</td>
   </tr>
   <tr class="table-notes"><td colspan="3">

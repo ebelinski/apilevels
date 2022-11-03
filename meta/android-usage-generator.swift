@@ -10,8 +10,8 @@ Steps:
 */
 
 let data = """
-"Date","11.0","10.0","9.0 Pie","12.0","8.1 Oreo","8.0 Oreo","7.0 Nougat","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","13.0","4.0 Ice Cream Sandwich","21.1","22.1","22.7","22.5","22.3","Other"
-2022-09,27.37,20.15,10.04,26.02,5.35,2.38,2.44,2.11,1.26,1.29,0.51,0.28,0.07,0.06,0.04,0.45,0.04,0,0,0.02,0,0,0.12
+"Date","11.0","10.0","12.0","9.0 Pie","8.1 Oreo","7.0 Nougat","8.0 Oreo","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","13.0","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","4.0 Ice Cream Sandwich","21.1","22.1","22.7","22.5","22.3","Other"
+2022-10,26.13,19.12,29.36,9.46,5.1,2.51,2.18,1.98,1.19,1.21,0.49,0.27,0.68,0.06,0.06,0.04,0.03,0,0,0.01,0,0,0.14
 """
 
 let rows = data.split(separator: "\n")
@@ -114,8 +114,27 @@ android4point2 += android4point3
 android4point1 += android4point2
 android4point0 += android4point1
 
+// Round to 1 decimal place
+android13 = round(android13 * 10) / 10.0
+android12 = round(android12 * 10) / 10.0
+android11 = round(android11 * 10) / 10.0
+android10 = round(android10 * 10) / 10.0
+android9 = round(android9 * 10) / 10.0
+android8point1 = round(android8point1 * 10) / 10.0
+android8point0 = round(android8point0 * 10) / 10.0
+android7point1 = round(android7point1 * 10) / 10.0
+android7point0 = round(android7point0 * 10) / 10.0
+android6 = round(android6 * 10) / 10.0
+android5point1 = round(android5point1 * 10) / 10.0
+android5point0 = round(android5point0 * 10) / 10.0
+android4point4 = round(android4point4 * 10) / 10.0
+android4point3 = round(android4point3 * 10) / 10.0
+android4point2 = round(android4point2 * 10) / 10.0
+android4point1 = round(android4point1 * 10) / 10.0
+android4point0 = round(android4point0 * 10) / 10.0
+
 print("Android 13: \(android13)")
-print("Androiz 12: \(android12)")
+print("Android 12: \(android12)")
 print("Android 11: \(android11)")
 print("Android 10: \(android10)")
 print("Android 9: \(android9)")
