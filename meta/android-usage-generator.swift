@@ -10,8 +10,8 @@ Steps:
 */
 
 let data = """
-"Date","11.0","10.0","12.0","9.0 Pie","8.1 Oreo","7.0 Nougat","8.0 Oreo","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","13.0","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","4.0 Ice Cream Sandwich","21.1","22.1","22.7","22.5","22.3","Other"
-2022-10,26.13,19.12,29.36,9.46,5.1,2.51,2.18,1.98,1.19,1.21,0.49,0.27,0.68,0.06,0.06,0.04,0.03,0,0,0.01,0,0,0.14
+"Date","11.0","10.0","12.0","9.0 Pie","8.1 Oreo","7.0 Nougat","8.0 Oreo","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","13.0","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","4.0 Ice Cream Sandwich","21.1","22.1","22.7","22.5","22.3","22.9","Other"
+2022-11,25.17,18.56,30.06,9.17,5.11,2.42,2.06,1.92,1.23,1.23,0.46,0.25,2.03,0.06,0.06,0.04,0.03,0,0.04,0,0,0,0.04,0.06
 """
 
 let rows = data.split(separator: "\n")

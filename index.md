@@ -33,7 +33,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=0.7 %}
+    {% include progress-cell.html rowspan=1 percentage=2.0 %}
     <td rowspan="2">2022</td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=3 percentage=30.0 %}
+    {% include progress-cell.html rowspan=3 percentage=32.1 %}
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
@@ -72,7 +72,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Red Velvet Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=56.2 %}
+    {% include progress-cell.html rowspan=2 percentage=57.3 %}
     <td rowspan="2">2020</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -91,7 +91,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Quince Tart
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=75.3 %}
+    {% include progress-cell.html rowspan=1 percentage=75.8 %}
     <td>2019</td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html rowspan=2 percentage=84.8 %}
+    {% include progress-cell.html rowspan=2 percentage=85.0 %}
     <td rowspan="2">2018</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
@@ -116,13 +116,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
-    {% include progress-cell.html rowspan=1 percentage=89.9 %}
+    {% include progress-cell.html rowspan=1 percentage=90.1 %}
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
-    {% include progress-cell.html rowspan=1 percentage=92.0 %}
+    {% include progress-cell.html rowspan=1 percentage=92.2 %}
   </tr>
   <tr>
     <td rowspan="2">
@@ -131,7 +131,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
-    {% include progress-cell.html rowspan=1 percentage=93.2 %}
+    {% include progress-cell.html rowspan=1 percentage=93.4 %}
     <td rowspan="2">2016</td>
   </tr>
   <tr>
@@ -156,7 +156,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
-    {% include progress-cell.html rowspan=1 percentage=98.9 %}
+    {% include progress-cell.html rowspan=1 percentage=99.0 %}
     <td>2015</td>
   </tr>
   <tr>
@@ -340,7 +340,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Cumulative usage distribution figures were last updated on <b>November 3, 2022</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+      <p>Cumulative usage distribution figures were last updated on <b>December 6, 2022</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
       <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly. <a href="#fnref:2" class="reversefootnote">↩</a></p>
