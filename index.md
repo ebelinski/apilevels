@@ -178,7 +178,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     <td><code>KITKAT_WATCH</code></td>
     <td rowspan="2">KitKat</td>
-    <td rowspan="23"><i>No data</i></td>
+    <td rowspan="22"><i>No data</i></td>
   </tr>
   <tr>
     <td>
