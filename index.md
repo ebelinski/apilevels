@@ -387,7 +387,7 @@ This is a list that shows which <code>targetSdkVersion</code> your app needs in 
 </div>
 
 #### Links
-* [targetSdkVersion policy rules](https://support.google.com/googleplay/android-developer/answer/11926878#zippy=%2Ci-have-a-live-app-on-google-play-that-targets-api-or-lower-that-i-do-not-plan-to-update-what-are-my-options)
+* [targetSdkVersion policy rules](https://support.google.com/googleplay/android-developer/answer/11926878)
 * [SDK/API release dates](https://de.wikipedia.org/wiki/Liste_von_Android-Versionen)
 
 ## Definitions
