@@ -310,15 +310,15 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td class="nowrap"><code>existing app</code></td>
-    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">restrictions</a>.</td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
   </tr>
   <tr>
     <td class="nowrap"><code>wear os app</code></td>
-    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">restrictions</a>.</td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
   </tr>
   <tr>
     <td class="nowrap"><code>automobil app</code></td>
-    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">restrictions</a>.</td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
   </tr>
 </table>
 </div>
