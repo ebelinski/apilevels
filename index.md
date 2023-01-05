@@ -327,7 +327,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 This is a list that shows which <code>targetSdkVersion</code> your app needs in the Google Play Store, without any <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">restrictions</a>.
 
-<div class="table-responsive">
+<div id="target-policy-table" class="table-responsive">
 <table class="full-width">
   <tr>
     <th>SDK / API level</th>
@@ -335,8 +335,8 @@ This is a list that shows which <code>targetSdkVersion</code> your app needs in 
     <th>new app</th>
     <th>update app</th>
     <th>existing app</th>
-    <th>wear os app</th>
-    <th>automobil app</th>
+    <th>wear os</th>
+    <th>android auto</th>
   </tr>
   <tr>
     <td>Level 33</td>
@@ -385,6 +385,26 @@ This is a list that shows which <code>targetSdkVersion</code> your app needs in 
   </tr>
 </table>
 </div>
+
+<pre id="target-policy-gantt" class="mermaid" style="background-color: #ccc">
+    gantt
+        dateFormat  YYYY-MM-DD
+        Level 33, 2022-08-15 : milestone, m1, 2022-08-15, 1m
+        Level 32, 2022-03-07 : milestone, m1, 2022-03-07, 1m
+        Level 31, 2021-10-04 : milestone, m1, 2021-10-04, 1m
+        Level 30, 2020-09-08 : milestone, m1, 2020-09-08, 1m
+        Level 29, 2019-09-03 : milestone, m1, 2019-09-03, 1m
+        section new app
+        1 year          :a1, 2021-08-15, 1y
+        section upload app
+        1 year      :2021-08-15, 1y
+        section existing app
+        2 years      :2020-08-15, 2y
+        section wear os
+        2 years      :2020-08-15, 2y
+        section android auto
+        2 years      :2020-08-15, 2y
+</pre>
 
 #### Links
 * [targetSdkVersion policy rules](https://support.google.com/googleplay/android-developer/answer/11926878)
