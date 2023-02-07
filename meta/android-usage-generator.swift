@@ -4,14 +4,14 @@ import Foundation
 Eugene's low tech iOS usage generator. Easiest to run this on CodeRunner for macOS.
 
 Steps:
-1. Go to https://gs.statcounter.com/ios-version-market-share/mobile-tablet/worldwide.
+1. Go to https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide.
 2. Select "Download Data (.csv)"
 3. From the CSV file, copy the first line (column names) and last line (latest data).
 */
 
 let data = """
-"Date","11.0","10.0","12.0","9.0 Pie","8.1 Oreo","7.0 Nougat","8.0 Oreo","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","13.0","4.4 KitKat","5.0 Lollipop","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","4.0 Ice Cream Sandwich","22.1","21.1","22.7","22.5","22.9","22.3","Other"
-2022-12,23.61,18.37,28.22,8.72,4.91,2.41,1.86,1.81,1.21,1.21,6.79,0.41,0.19,0.03,0.05,0.02,0.03,0.06,0,0,0,0.01,0,0.07
+"Date","11.0","10.0","12.0","9.0 Pie","8.1 Oreo","7.0 Nougat","8.0 Oreo","6.0 Marshmallow","13.0","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","4.2 Jelly Bean","4.3 Jelly Bean","4.1 Jelly Bean","4.0 Ice Cream Sandwich","22.1","22.7","22.5","22.9","22.3","Other"
+2023-01,23.03,17.75,25.1,8.61,4.9,2.24,1.77,1.7,11.84,1.14,1.17,0.33,0.18,0.03,0.05,0.02,0.03,0.04,0,0,0.01,0,0.07
 """
 
 let rows = data.split(separator: "\n")
