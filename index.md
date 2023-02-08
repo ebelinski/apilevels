@@ -25,6 +25,16 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
+      <b><a href="https://developer.android.com/about/versions/14">Android 14</a> <sup class="beta">DEV</sup></b>
+    </td>
+    <td>Level 34</td>
+    <td></td>
+    <td></td>
+    <td>—</td>
+    <td><i>TBD</i></td>
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
     </td>
     <td>Level 33</td>
