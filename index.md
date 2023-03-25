@@ -34,7 +34,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><i>TBD</i></td>
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
     </td>
     <td>Level 33</td>
@@ -43,8 +43,13 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=14.4 %}
-    <td rowspan="2">2022</td>
+    {% include progress-cell.html rowspan=2 percentage=14.4 %}
+    <td rowspan="3">2022</td>
+    <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 33+</a> for new apps and app updates by August 2023.</li>
+    </ul>
+  </td></tr>
   </tr>
   <tr>
     <td rowspan="3">
@@ -69,11 +74,10 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
     <ul>
       <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 31+</a> for new apps and app updates.</li>
-      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 31+</a> for app updates by Nov 2022 and <i>all existing apps</i> by Nov 2023. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="2">
+    <td>
       <b><a href="https://developer.android.com/about/versions/11">Android 11</a></b>
     </td>
     <td>Level 30</td>
@@ -82,15 +86,9 @@ This is an overview of all Android versions and their corresponding identifiers 
       Red Velvet Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=60.4 %}
-    <td rowspan="2">2020</td>
+    {% include progress-cell.html rowspan=1 percentage=60.4 %}
+    <td>2020</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 30+</a> for app updates, and new WearOS apps.</li>
-      <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">will need to be 30+</a> for <i>all existing apps</i> by November 2022. <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
-    </ul>
-  </td></tr>
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/10">Android 10</a></b>
@@ -105,20 +103,15 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>2019</td>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td>
       <b><a href="https://developer.android.com/about/versions/pie">Android 9</a></b>
     </td>
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html rowspan=2 percentage=86.6 %}
-    <td rowspan="2">2018</td>
+    {% include progress-cell.html rowspan=1 percentage=86.6 %}
+    <td>2018</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 28+</a> for Wear OS app updates.</li>
-    </ul>
-  </td></tr>
   <tr>
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/oreo">Android 8</a></b>
