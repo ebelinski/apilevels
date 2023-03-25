@@ -28,8 +28,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       <b><a href="https://developer.android.com/about/versions/14">Android 14</a> <sup class="beta">DEV</sup></b>
     </td>
     <td>Level 34</td>
-    <td></td>
-    <td></td>
+    <td><code>UPSIDE_DOWN_CAKE</code></td>
+    <td>Upside Down Cake</td>
     <td>—</td>
     <td><i>TBD</i></td>
   </tr>
