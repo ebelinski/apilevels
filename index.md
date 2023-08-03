@@ -171,6 +171,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
     <ul>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 21 or higher.</li>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2023/07/google-play-services-discontinuing-updates-for-kitkat.html">do not support Android versions</a> below API level 21.</li>
     </ul>
   </td></tr>
   <tr>
@@ -191,11 +192,6 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>KITKAT</code></td>
     <td rowspan="3">2013</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 19.</li>
-    </ul>
-  </td></tr>
   <tr>
     <td>Level 18 <span class="subversion">Android 4.3</span></td>
     <td><code>JELLY_BEAN_MR2</code></td>
