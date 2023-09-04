@@ -283,3 +283,29 @@ pre {
   opacity: 0.65;
   font-style: italic;
 }
+
+@media print {
+  #site-title,
+  #intro,
+  #compact-toc {
+    display: none;
+  }
+
+  #page-content,
+  table {
+    margin: 0;
+  }
+
+  .table-responsive {
+    page-break-inside: avoid;
+  }
+
+  #main-table {
+    page-break-after: always;
+  }
+
+  a {
+    color: $body-color;
+    text-decoration: none !important;
+  }
+}
