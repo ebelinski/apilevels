@@ -8,7 +8,7 @@ $text: black;
 $textDark: white;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap/bootstrap";
+@import "bootstrap-5.0.2/scss/bootstrap";
 
 body {
   font-size: 1.15em;
@@ -26,6 +26,10 @@ h1 {
   font-size: 1.4em;
 } h4 {
   font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
 }
 
 #site-title {
@@ -278,4 +282,30 @@ pre {
 .unannounced {
   opacity: 0.65;
   font-style: italic;
+}
+
+@media print {
+  #site-title,
+  #intro,
+  #compact-toc {
+    display: none;
+  }
+
+  #page-content,
+  table {
+    margin: 0;
+  }
+
+  .table-responsive {
+    page-break-inside: avoid;
+  }
+
+  #main-table {
+    page-break-after: always;
+  }
+
+  a {
+    color: $body-color;
+    text-decoration: none !important;
+  }
 }
