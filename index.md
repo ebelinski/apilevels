@@ -172,10 +172,11 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
     <ul>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 21 or higher.</li>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2023/07/google-play-services-discontinuing-updates-for-kitkat.html">will not support Android versions</a> below API level 21 starting in August 2023.</li>
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="9"><b>Android 4</b></td>
+    <td rowspan="10"><b>Android 4</b></td>
     <td>
       Level 20
       <span class="subversion">Android 4.4W</span> <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
@@ -194,7 +195,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">do not support Android versions</a> below API level 19.</li>
+      <li>Google Play services beyond v21.33.56 (the last version despite what the blog states) <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">does not support Android versions</a> below API level 19.</li>
     </ul>
   </td></tr>
   <tr>
@@ -207,13 +208,18 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 17 <span class="subversion">Android 4.2</span></td>
     <td><code>JELLY_BEAN_MR1</code></td>
     {% include progress-cell.html rowspan=1 percentage=99.71 %}
-    <td rowspan="2">2012</td>
+    <td rowspan="3">2012</td>
   </tr>
   <tr>
     <td>Level 16 <span class="subversion">Android 4.1</span></td>
     <td><code>JELLY_BEAN</code></td>
     {% include progress-cell.html rowspan=1 percentage=99.76 %}
   </tr>
+<tr class="table-notes"><td colspan="3">
+    <ul>
+      <li>Google Play services beyond v14.8.39 (the last version despite what the blog states) <a href="https://android-developers.googleblog.com/2018/12/google-play-services-discontinuing.html">does not support Android versions</a> below API level 16.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
