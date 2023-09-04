@@ -3,9 +3,8 @@ layout: default
 ---
 {::options parse_block_html="true" /}
 
-<p id="intro">
 This is an overview of all Android versions and their corresponding identifiers for Android developers. Anyone is welcome to open [an issue or pull request](https://github.com/ebelinski/apilevels). Happy developing!
-</p>
+{: #intro}
 
 <div id="compact-toc">
 * TOC
