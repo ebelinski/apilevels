@@ -26,7 +26,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
-      <b><a href="https://developer.android.com/about/versions/14">Android 14</a> <sup class="beta">DEV</sup></b>
+      <b><a href="https://developer.android.com/about/versions/14">Android 14</a> <sup class="beta">BETA</sup></b>
     </td>
     <td>Level 34</td>
     <td><code>UPSIDE_DOWN_CAKE</code></td>
