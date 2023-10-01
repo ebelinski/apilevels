@@ -22,7 +22,10 @@ This is an overview of all Android versions and their corresponding identifiers 
       Cumulative<br>usage
       <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
     </th>
-    <th>Year</th>
+    <th>
+      Year
+      <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>
+    </th>
   </tr>
   <tr>
     <td>
@@ -151,7 +154,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>M</code></td>
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=97.83 %}
-    <td>2015</td>
+    <td rowspan="2">2015</td>
   </tr>
   <tr>
     <td rowspan="3">
@@ -161,7 +164,6 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
     {% include progress-cell.html rowspan=1 percentage=98.81 %}
-    <td>2015</td>
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
@@ -362,6 +364,9 @@ This is an overview of all Android versions and their corresponding identifiers 
     </li>
     <li id="fn:3">
       <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:4">
+      <p>The years represent the year of first stable release of each version. The release dates are from <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES#constants_1"><code>android.os.Build.VERSION_CODES</code></a> including later versions' years from the <a href="https://blog.google/products/android/">Official Android blog</a> (<a href="https://blog.google/products/android/android-12/">12</a>, <a href="https://blog.google/products/android/12l-larger-screens/">12L</a>, <a href="https://blog.google/products/android/android-13/">13</a>) <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
