@@ -29,13 +29,16 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
-      <b><a href="https://developer.android.com/about/versions/14">Android 14</a> <sup class="beta">BETA</sup></b>
+      <b><a href="https://developer.android.com/about/versions/14">Android 14</a></b>
     </td>
     <td>Level 34</td>
     <td><code>UPSIDE_DOWN_CAKE</code></td>
-    <td>Upside Down Cake</td>
+    <td>
+      Upside Down Cake
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
     <td>—</td>
-    <td><i>TBD</i></td>
+    <td>2023</td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -366,7 +369,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <p>Android 4.4W is the first Android release for Android Wear. <a href="#fnref:3" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:4">
-      <p>The years represent the year of first stable release of each version. The release dates are from <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES#constants_1"><code>android.os.Build.VERSION_CODES</code></a> including later versions' years from the <a href="https://blog.google/products/android/">Official Android blog</a> (<a href="https://blog.google/products/android/android-12/">12</a>, <a href="https://blog.google/products/android/12l-larger-screens/">12L</a>, <a href="https://blog.google/products/android/android-13/">13</a>) <a href="#fnref:4" class="reversefootnote">↩</a></p>
+      <p>The years represent the year of first stable release of each version. The release dates are from <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES#constants_1"><code>android.os.Build.VERSION_CODES</code></a> including later versions' years from the <a href="https://blog.google/products/android/">Official Android blog</a> (<a href="https://blog.google/products/android/android-12/">12</a>, <a href="https://blog.google/products/android/12l-larger-screens/">12L</a>, <a href="https://blog.google/products/android/android-13/">13</a>, <a href="https://blog.google/products/android/android-14/">14</a>) <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
