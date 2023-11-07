@@ -52,11 +52,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     {% include progress-cell.html rowspan=2 percentage=30.33 %}
     <td rowspan="3">2022</td>
-    <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 33+</a> for new apps and app updates by August 2023.</li>
-    </ul>
-  </td></tr>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 33+</a> for new apps and app updates by August 2023.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="3">
