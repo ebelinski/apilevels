@@ -28,7 +28,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/14">Android 14</a></b>
     </td>
     <td>Level 34</td>
@@ -37,8 +37,15 @@ This is an overview of all Android versions and their corresponding identifiers 
       Upside Down Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    <td>—</td>
-    <td>2023</td>
+    <td rowspan="2">—</td>
+    <td rowspan="2">2023</td>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 34+</a> for new apps and app updates by August 31, 2024.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="2">
@@ -52,14 +59,16 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
     {% include progress-cell.html rowspan=2 percentage=36.5 %}
     <td rowspan="3">2022</td>
-    <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 33+</a> for new apps and app updates by August 2023.</li>
-    </ul>
-  </td></tr>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 33+</a> for new apps and app updates since August 31, 2023.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td rowspan="3">
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/12">Android 12</a></b>
     </td>
     <td>
@@ -71,18 +80,13 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=3 percentage=54.7 %}
+    {% include progress-cell.html rowspan=2 percentage=54.7 %}
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
     <td><code>S</code></td>
-    <td rowspan="2">2021</td>
+    <td>2021</td>
   </tr>
-  <tr class="table-notes"><td colspan="3">
-    <ul>
-      <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 31+</a> for new apps and app updates.</li>
-    </ul>
-  </td></tr>
   <tr>
     <td>
       <b><a href="https://developer.android.com/about/versions/11">Android 11</a></b>
