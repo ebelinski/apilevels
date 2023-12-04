@@ -124,12 +124,12 @@ def update_index(values: dict[str, float]):
             for line in infile:
                 match state:
                     case 'init':
-                        if line.startswith('<table class="full-width">'):
+                        if '<table' in line:
                             state = 'table'
                     case 'table':
-                        if '<tr>' in line:
+                        if '<tr' in line:
                             state = 'row'
-                        if line.startswith('</table>'):
+                        if '</table>' in line:
                             state = 'done'
                     case 'row':
                         if '</tr>' in line:
