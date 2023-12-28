@@ -33,10 +33,10 @@ from typing import Optional
 # Usage: python usage_reporter.py [update]
 #
 # If no update argument is given, downloads stats for the previous calendar month and
-# displays them.  NB relies on the fact that if only a single month is requested, the data
-# is in a different format, with one CSV row per Android version.
+# displays them.  Note that this relies on the fact that if only a single month is requested,
+# the data is returned in a different format, with one CSV row per Android version.
 #
-# If an 'update' argument is given will attempt to update the data in index.md.  It's
+# If an 'update' argument is given this script will attempt to update the data in index.md.  It's
 # a pretty crude parser which relies on the data for each Android version being inserted
 # in the table row for a particular API level, see level_to_version dict below.
 
