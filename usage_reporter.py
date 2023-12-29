@@ -140,8 +140,8 @@ class IndexUpdater:
         # Matches and extracts the "last updated" date.
         self.updated_re = re.compile(
             '(\\s+<p>Cumulative.*updated on <b>)(\\w+ \\d+, \\d+)(</b> using.*)')
-        # Current 'state', which is a lambda pointing to the method to use to process the next line.
-        self.process = lambda v: self.init(v)
+        # Current 'state', which is a reference to the method to use to process the next line.
+        self.process = self.init
         # Last API level found which has not yet been used, else None.
         self.api_level = None
         # True once all substitutions have been made.
@@ -164,15 +164,15 @@ class IndexUpdater:
     # Initial state: looking for the first table in the file.
     def init(self, line: str) -> str:
         if '<table ' in line:
-            self.process = lambda v: self.table(v)
+            self.process = self.table
         return line
 
     # State while processing the first table, but not currently within a table row.
     def table(self, line: str) -> str:
         if '<tr>' in line:
-            self.process = lambda v: self.table_row(v)
+            self.process = self.table_row
         if '</table>' in line:
-            self.process = lambda v: self.update_date(v)
+            self.process = self.update_date
         return line
 
     # State while processing a table row.
@@ -192,7 +192,7 @@ class IndexUpdater:
                 self.api_level = int(match[1])
                 self.seen_api_levels.add(self.api_level)
             elif '</tr>' in line:
-                self.process = lambda v: self.table(v)
+                self.process = self.table
                 self.api_level = None
         return line
 
@@ -200,7 +200,7 @@ class IndexUpdater:
     def update_date(self, line: str) -> str:
         match = re.match(self.updated_re, line)
         if match:
-            self.process = lambda v: self.done(v)
+            self.process = self.done
             return ("{}{}{}\n"
                     .format(match[1], datetime.now().strftime("%B %d, %Y"), match[3]))
         return line
