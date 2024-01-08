@@ -14,7 +14,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 <div id="main-table" class="table-responsive">
 <table class="full-width">
   <tr>
-    <th>Version</th>
+    <th style="min-width: 6.5em">Version</th>
     <th>SDK / API level</th>
     <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version code</a></th>
     <th>Codename</th>
