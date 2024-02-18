@@ -28,6 +28,19 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
   </tr>
   <tr>
+    <td>
+      <b><a href="https://developer.android.com/about/versions/15">Android 15</a> <sup class="beta">DEV</sup></b>
+    </td>
+    <td>Level 35</td>
+    <td><i>TBD</i></td>
+    <td>
+      Vanilla Ice Cream
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
+    <td>—</td>
+    <td><i>TBD</i></td>
+  </tr>
+  <tr>
     <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/14">Android 14</a></b>
     </td>
