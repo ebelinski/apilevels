@@ -246,12 +246,17 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 15 <span class="subversion">Android 4.0.3 – 4.0.4</span></td>
     <td><code>ICE_CREAM_SANDWICH_MR1</code></td>
     <td rowspan="2">Ice Cream Sandwich</td>
-    {% include progress-cell.html rowspan=2 percentage=99.9 %}
-    <td rowspan="6">2011</td>
+    {% include progress-cell.html rowspan=3 percentage=99.9 %}
+    <td rowspan="7">2011</td>
   </tr>
   <tr>
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
+    <tr class="table-notes"><td colspan="3">
+      <ul>
+        <li>Earlier <a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">required</a> a <code>minSdk</code> of 14 or higher.</li>
+      </ul>
+    </td></tr>
   </tr>
   <tr>
     <td rowspan="3"><b>Android 3</b></td>
