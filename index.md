@@ -218,6 +218,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
     <ul>
       <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://android-developers.googleblog.com/2023/10/androidx-minsdkversion-19.html">require</a> a <code>minSdk</code> of 19 or higher since October 2023.</li>
+      <li>Google Play services v21.33.56+ (July 2021) <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">drops support</a> for API levels below 19.</li>
     </ul>
   </td></tr>
   <tr>
