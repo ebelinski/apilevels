@@ -198,7 +198,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </ul>
   </td></tr>
   <tr>
-    <td rowspan="9"><b>Android 4</b></td>
+    <td rowspan="10"><b>Android 4</b></td>
     <td>
       Level 20
       <span class="subversion">Android 4.4W</span> <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>
