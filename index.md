@@ -32,7 +32,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <b><a href="https://developer.android.com/about/versions/15">Android 15</a> <sup class="beta">DEV</sup></b>
     </td>
     <td>Level 35</td>
-    <td><i>TBD</i></td>
+    <td><code>VANILLA_ICE_CREAM</code></td>
     <td>
       Vanilla Ice Cream
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
