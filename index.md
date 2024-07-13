@@ -167,14 +167,21 @@ This is an overview of all Android versions and their corresponding identifiers 
     {% include progress-cell.html rowspan=1 percentage=97.0 %}
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/marshmallow">Android 6</a></b>
     </td>
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=98.4 %}
-    <td rowspan="2">2015</td>
+    <td rowspan="3">2015</td>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+        <ul>
+          <li>Google Play services (July 2024) <a href="https://support.google.com/googleplay/answer/9037938?hl=en">drops</a> <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">support</a> for API levels below 23.</li>
+        </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="3">
