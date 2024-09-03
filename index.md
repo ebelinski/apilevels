@@ -29,7 +29,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
-      <b><a href="https://developer.android.com/about/versions/15">Android 15</a> <sup class="beta">BETA</sup></b>
+      <b><a href="https://developer.android.com/about/versions/15">Android 15</a></b>
     </td>
     <td>Level 35</td>
     <td><code>VANILLA_ICE_CREAM</code></td>
