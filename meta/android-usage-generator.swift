@@ -10,8 +10,8 @@ Steps:
 */
 
 let data = """
-"Date","12.0","11.0","10.0","13.0","9.0 Pie","8.1 Oreo","8.0 Oreo","7.0 Nougat","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","4.3 Jelly Bean","4.2 Jelly Bean","4.0 Ice Cream Sandwich","14.0","4.1 Jelly Bean","23.3","23.1","2.2 Froyo","22.1","23.7","22.9","Other"
-2023-10,18.26,17.81,9.35,36.47,6.63,2.32,3.14,1.64,1.56,0.9,0.48,0.3,0.49,0.04,0.03,0.02,0.35,0.02,0,0,0.03,0,0.01,0,0.15
+"Date","13.0","14.0","12.0","11.0","10.0","9.0 Pie","8.0 Oreo","8.1 Oreo","6.0 Marshmallow","7.0 Nougat","5.1 Lollipop","5.0 Lollipop","7.1 Nougat","4.4 KitKat","15.0","4.3 Jelly Bean","24.1","4.2 Jelly Bean","4.1 Jelly Bean","23.1","24.7","4.0 Ice Cream Sandwich","Other"
+2024-11,18.74,36.45,13.11,11.9,6.25,3.73,2.91,1.27,1.9,0.92,0.46,1.39,0.28,0.13,0.41,0.02,0.05,0.01,0.01,0,0.01,0.01,0.05
 """
 
 let rows = data.split(separator: "\n")
@@ -19,6 +19,8 @@ let rows = data.split(separator: "\n")
 let androidVersions = Array(rows[0].split(separator: ",")[1...])
 let percentages = Array(rows[1].split(separator: ",")[1...])
 
+var android15 = 0.0
+var android14 = 0.0
 var android13 = 0.0
 var android12 = 0.0
 var android11 = 0.0
@@ -42,6 +44,10 @@ for i in 0..<androidVersions.count {
 	
 	if version.contains("21.") || version.contains("22.") {
 		continue // Ignore weird versions
+	} else if version.contains("15.") {
+		android15 += percentage
+	} else if version.contains("14.") {
+		android14 += percentage
 	} else if version.contains("13.") {
 		android13 += percentage
 	} else if version.contains("12.") {
@@ -97,6 +103,8 @@ for i in 0..<androidVersions.count {
 //var android4point1 = 0.0
 //var android4point0 = 0.0
 
+android14 += android15
+android13 += android14
 android12 += android13
 android11 += android12
 android10 += android11
@@ -133,6 +141,8 @@ android4point2 = round(android4point2 * 10) / 10.0
 android4point1 = round(android4point1 * 10) / 10.0
 android4point0 = round(android4point0 * 10) / 10.0
 
+print("Android 15: \(android15)")
+print("Android 14: \(android14)")
 print("Android 13: \(android13)")
 print("Android 12: \(android12)")
 print("Android 11: \(android11)")
