@@ -56,12 +56,12 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes">
     <td colspan="3">
       <ul>
-        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">will need to be 34+</a> for new apps and app updates by August 31, 2024.</li>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be to be 34+</a> for new apps and app updates as of August 31, 2024.</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td rowspan="1">
       <b><a href="https://developer.android.com/about/versions/13">Android 13</a></b>
     </td>
     <td>Level 33</td>
@@ -70,15 +70,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=55.6 %}
-    <td rowspan="3">2022</td>
-  </tr>
-  <tr class="table-notes">
-    <td colspan="3">
-      <ul>
-        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 33+</a> for new apps and app updates since August 31, 2023.</li>
-      </ul>
-    </td>
+    {% include progress-cell.html rowspan=1 percentage=55.6 %}
+    <td rowspan="2">2022</td>
   </tr>
   <tr>
     <td rowspan="2">
