@@ -37,7 +37,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Vanilla Ice Cream
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=0.41 %}
+    {% include progress-cell.html rowspan=1 percentage=1.34 %}
     <td>2024</td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Upside Down Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=36.86 %}
+    {% include progress-cell.html rowspan=2 percentage=38.32 %}
     <td rowspan="2">2023</td>
   </tr>
   <tr class="table-notes">
@@ -70,7 +70,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Tiramisu
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=55.6 %}
+    {% include progress-cell.html rowspan=1 percentage=57.1 %}
     <td rowspan="2">2022</td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Snow Cone
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=68.7 %}
+    {% include progress-cell.html rowspan=2 percentage=70.3 %}
   </tr>
   <tr>
     <td>Level 31 <span class="subversion">Android 12</span></td>
@@ -103,7 +103,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Red Velvet Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=80.6 %}
+    {% include progress-cell.html rowspan=1 percentage=82.2 %}
     <td>2020</td>
   </tr>
   <tr>
@@ -116,7 +116,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Quince Tart
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=86.9 %}
+    {% include progress-cell.html rowspan=1 percentage=88.5 %}
     <td>2019</td>
   </tr>
   <tr>
@@ -126,7 +126,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 28</td>
     <td><code>P</code></td>
     <td>Pie</td>
-    {% include progress-cell.html rowspan=1 percentage=90.6 %}
+    {% include progress-cell.html rowspan=1 percentage=92.2 %}
     <td>2018</td>
   </tr>
   <tr>
@@ -136,13 +136,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 27 <span class="subversion">Android 8.1</span></td>
     <td><code>O_MR1</code></td>
     <td rowspan="2">Oreo</td>
-    {% include progress-cell.html rowspan=1 percentage=91.9 %}
+    {% include progress-cell.html rowspan=1 percentage=93.4 %}
     <td rowspan="2">2017</td>
   </tr>
   <tr>
     <td>Level 26 <span class="subversion">Android 8.0</span></td>
     <td><code>O</code></td>
-    {% include progress-cell.html rowspan=1 percentage=94.8 %}
+    {% include progress-cell.html rowspan=1 percentage=95.7 %}
   </tr>
   <tr>
     <td rowspan="2">
@@ -151,13 +151,13 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
-    {% include progress-cell.html rowspan=1 percentage=95.1 %}
+    {% include progress-cell.html rowspan=1 percentage=96.0 %}
     <td rowspan="2">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
-    {% include progress-cell.html rowspan=1 percentage=96.0 %}
+    {% include progress-cell.html rowspan=1 percentage=97.0 %}
   </tr>
   <tr>
     <td>
@@ -166,7 +166,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
-    {% include progress-cell.html rowspan=1 percentage=97.9 %}
+    {% include progress-cell.html rowspan=1 percentage=98.4 %}
     <td rowspan="2">2015</td>
   </tr>
   <tr>
@@ -176,7 +176,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 22 <span class="subversion">Android 5.1</span></td>
     <td><code>LOLLIPOP_MR1</code></td>
     <td rowspan="2">Lollipop</td>
-    {% include progress-cell.html rowspan=1 percentage=98.3 %}
+    {% include progress-cell.html rowspan=1 percentage=98.8 %}
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
@@ -372,7 +372,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Cumulative usage distribution figures were last updated on <b>December 13, 2024</b> using data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a> and <a href="https://github.com/ebelinski/apilevels/blob/main/meta/android-usage-generator.swift">this script</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
+      <p>Cumulative usage distribution figures were last updated on January 9, 2025 using <b>December 2024</b> data from <a href="https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide">Statcounter GlobalStats</a> and <a href="https://github.com/ebelinski/apilevels/blob/main/meta/android-usage-generator.swift">this script</a>. These figures may have changed significantly since the last update. You may update the figures yourself with a <a href="https://github.com/ebelinski/apilevels">pull request</a>. <a href="#fnref:1" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:2">
       <p>The codenames for Android 10 and above in the table are the internal codenames. Beginning with Android 10, Google dropped the usage of codenames publicly. <a href="#fnref:2" class="reversefootnote">↩</a></p>
