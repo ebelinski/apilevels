@@ -29,6 +29,19 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
+      <b><a href="https://developer.android.com/about/versions/16">Android 16</a> <sup class="beta">BETA</sup></b>
+    </td>
+    <td>Level 36</td>
+    <td><code>BAKLAVA</code></td>
+    <td>
+      Baklava
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
+    {% include progress-cell.html rowspan=1 percentage=0 %}
+    <td>2024</td>
+  </tr>
+  <tr>
+    <td>
       <b><a href="https://developer.android.com/about/versions/15">Android 15</a></b>
     </td>
     <td>Level 35</td>
