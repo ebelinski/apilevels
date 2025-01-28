@@ -337,7 +337,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td class="nowrap"><code>minSdk</code></td>
     <td class="nowrap"><code>minSdkVersion</code></td>
-    <td>The minimum SDK version your app will support, defined in <code>build.gradle</code>. For example, if your <code>minSdk</code> is 26, this SDK version corresponse to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.</td>
+    <td>The minimum SDK version your app will support, defined in <code>build.gradle</code>. For example, if your <code>minSdk</code> is 26, this SDK version corresponds to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.</td>
   </tr>
   <tr>
     <td class="nowrap"><code>targetSdk</code></td>
