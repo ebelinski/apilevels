@@ -69,7 +69,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes">
     <td colspan="3">
       <ul>
-        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be to be 34+</a> for new apps and app updates as of August 31, 2024.</li>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 34+</a> for new apps and app updates as of August 31, 2024.</li>
       </ul>
     </td>
   </tr>
