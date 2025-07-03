@@ -38,7 +38,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=0 %}
-    <td><i>TBD</i></td>
+    <td>2025</td>
   </tr>
   <tr>
     <td>
