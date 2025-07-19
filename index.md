@@ -41,7 +41,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>2025</td>
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/15">Android 15</a></b>
     </td>
     <td>Level 35</td>
@@ -50,11 +50,18 @@ This is an overview of all Android versions and their corresponding identifiers 
       Vanilla Ice Cream
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=10.06 %}
-    <td>2024</td>
+    {% include progress-cell.html rowspan=2 percentage=10.06 %}
+    <td rowspan="2">2024</td>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 35+</a> for new apps and app updates as of August 31, 2025.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td rowspan="1">
       <b><a href="https://developer.android.com/about/versions/14">Android 14</a></b>
     </td>
     <td>Level 34</td>
@@ -63,15 +70,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       Upside Down Cake
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=43.5 %}
-    <td rowspan="2">2023</td>
-  </tr>
-  <tr class="table-notes">
-    <td colspan="3">
-      <ul>
-        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 34+</a> for new apps and app updates as of August 31, 2024.</li>
-      </ul>
-    </td>
+    {% include progress-cell.html rowspan=1 percentage=43.5 %}
+    <td rowspan="1">2023</td>
   </tr>
   <tr>
     <td rowspan="1">
