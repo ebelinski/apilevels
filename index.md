@@ -336,6 +336,125 @@ This is an overview of all Android versions and their corresponding identifiers 
 </table>
 </div>
 
+## Target version policy
+
+#### Policy rules
+<div class="table-responsive">
+<table class="full-width">
+  <tr>
+    <th class="nowrap">Name</th>
+    <th>Definition</th>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>new app</code></td>
+    <td>Must target an android api level <strong>within one year</strong> from the latest major Android OS version.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>update app</code></td>
+    <td>Must target an android api level <strong>within one year</strong> from the latest major Android OS version.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>existing app</code></td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>wear os app</code></td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>automobil app</code></td>
+    <td>Must target an android api level <strong>within two years</strong> from the latest major Android OS version. Otherwise you have to expect <a href="https://support.google.com/googleplay/android-developer/answer/11926878">restrictions</a>.</td>
+  </tr>
+</table>
+</div>
+
+#### Required targetSdkVersion for your app in the Google Play Store
+
+This is a list that shows which <code>targetSdkVersion</code> your app needs in the Google Play Store, without any <a href="https://android-developers.googleblog.com/2022/04/expanding-plays-target-level-api-requirements-to-strengthen-user-security.html">restrictions</a>.
+
+<div id="target-policy-table" class="table-responsive">
+<table class="full-width">
+  <tr>
+    <th>SDK / API level</th>
+    <th>Release date</th>
+    <th>new app</th>
+    <th>update app</th>
+    <th>existing app</th>
+    <th>wear os</th>
+    <th>android auto</th>
+  </tr>
+  <tr>
+    <td>Level 33</td>
+    <td><code>2022-08-15</code></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Level 32</td>
+    <td><code>2022-03-07</code></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Level 31</td>
+    <td><code>2021-10-04</code></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Level 30</td>
+    <td><code>2020-09-08</code></td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Level 29</td>
+    <td><code>2019-09-03</code></td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+  </tr>
+</table>
+</div>
+
+<pre id="target-policy-gantt" class="mermaid" style="background-color: #ccc">
+    gantt
+        dateFormat  YYYY-MM-DD
+        Level 33, 2022-08-15 : milestone, m1, 2022-08-15, 1m
+        Level 32, 2022-03-07 : milestone, m1, 2022-03-07, 1m
+        Level 31, 2021-10-04 : milestone, m1, 2021-10-04, 1m
+        Level 30, 2020-09-08 : milestone, m1, 2020-09-08, 1m
+        Level 29, 2019-09-03 : milestone, m1, 2019-09-03, 1m
+        section new app
+        1 year          :a1, 2021-08-15, 1y
+        section upload app
+        1 year      :2021-08-15, 1y
+        section existing app
+        2 years      :2020-08-15, 2y
+        section wear os
+        2 years      :2020-08-15, 2y
+        section android auto
+        2 years      :2020-08-15, 2y
+</pre>
+
+#### Links
+* [targetSdkVersion policy rules](https://support.google.com/googleplay/android-developer/answer/11926878)
+* [SDK/API release dates](https://de.wikipedia.org/wiki/Liste_von_Android-Versionen)
+
 ## Definitions
 
 #### Gradle files
@@ -361,6 +480,29 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td class="nowrap"><code>compileSdk</code></td>
     <td class="nowrap"><code>compileSdkVersion</code></td>
     <td>The SDK version that your app compiles against, defined in <code>build.gradle</code>. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as <code>targetSdk</code>.</td>
+  </tr>
+</table>
+</div>
+
+#### App type
+
+<div class="table-responsive">
+<table class="full-width">
+  <tr>
+    <th class="nowrap">Name</th>
+    <th>Definition</th>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>new app</code></td>
+    <td>An app that is not yet published on Google Play (i.e., a brand new app).</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>update app</code></td>
+    <td>A new version of the app that you’re submitting for review to replace your existing app.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>existing app</code></td>
+    <td>An app that is published on Google Play.</td>
   </tr>
 </table>
 </div>
