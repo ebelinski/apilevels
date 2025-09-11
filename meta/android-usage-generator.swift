@@ -1,7 +1,7 @@
 import Foundation
 
 /*
-Eugene's low tech iOS usage generator. Easiest to run this on CodeRunner for macOS.
+Eugene's low tech Android version usage generator. Easiest to run this on CodeRunner for macOS or some online Swift compiler.
 
 Steps:
 1. Go to https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide.
@@ -10,8 +10,8 @@ Steps:
 */
 
 let data = """
-"Date","13.0","14.0","12.0","11.0","10.0","9.0 Pie","8.0 Oreo","8.1 Oreo","6.0 Marshmallow","7.0 Nougat","5.1 Lollipop","5.0 Lollipop","7.1 Nougat","4.4 KitKat","15.0","4.3 Jelly Bean","24.1","4.2 Jelly Bean","4.1 Jelly Bean","23.1","24.7","4.0 Ice Cream Sandwich","Other"
-2024-11,18.74,36.45,13.11,11.9,6.25,3.73,2.91,1.27,1.9,0.92,0.46,1.39,0.28,0.13,0.41,0.02,0.05,0.01,0.01,0,0.01,0.01,0.05
+"Date","14.0","13.0","12.0","11.0","15.0","10.0","9.0 Pie","8.0 Oreo","6.0 Marshmallow","5.0 Lollipop","8.1 Oreo","7.0 Nougat","5.1 Lollipop","7.1 Nougat","16.0","4.4 KitKat","4.3 Jelly Bean","24.1","24.7","25.2","4.1 Jelly Bean","Other"
+2025-08,16.75,15.21,11.06,9.38,28.54,4.94,2.76,2.68,1.99,3.08,0.78,1.12,0.3,0.17,1.03,0.07,0.02,0,0,0,0.01,0.09
 """
 
 let rows = data.split(separator: "\n")
@@ -19,6 +19,7 @@ let rows = data.split(separator: "\n")
 let androidVersions = Array(rows[0].split(separator: ",")[1...])
 let percentages = Array(rows[1].split(separator: ",")[1...])
 
+var android16 = 0.0
 var android15 = 0.0
 var android14 = 0.0
 var android13 = 0.0
@@ -44,6 +45,8 @@ for i in 0..<androidVersions.count {
 	
 	if version.contains("21.") || version.contains("22.") {
 		continue // Ignore weird versions
+	} else if version.contains("16.") {
+		android16 += percentage
 	} else if version.contains("15.") {
 		android15 += percentage
 	} else if version.contains("14.") {
@@ -85,24 +88,7 @@ for i in 0..<androidVersions.count {
 	}
 }
 
-//var android13 = 0.0
-//var android12 = 0.0
-//var android11 = 0.0
-//var android10 = 0.0
-//var android9 = 0.0
-//var android8point1 = 0.0
-//var android8point0 = 0.0
-//var android7point1 = 0.0
-//var android7point0 = 0.0
-//var android6 = 0.0
-//var android5point1 = 0.0
-//var android5point0 = 0.0
-//var android4point4 = 0.0
-//var android4point3 = 0.0
-//var android4point2 = 0.0
-//var android4point1 = 0.0
-//var android4point0 = 0.0
-
+android15 += android16
 android14 += android15
 android13 += android14
 android12 += android13
@@ -123,6 +109,8 @@ android4point1 += android4point2
 android4point0 += android4point1
 
 // Round to 1 decimal place
+android15 = round(android15 * 10) / 10.0
+android14 = round(android14 * 10) / 10.0
 android13 = round(android13 * 10) / 10.0
 android12 = round(android12 * 10) / 10.0
 android11 = round(android11 * 10) / 10.0
@@ -141,6 +129,7 @@ android4point2 = round(android4point2 * 10) / 10.0
 android4point1 = round(android4point1 * 10) / 10.0
 android4point0 = round(android4point0 * 10) / 10.0
 
+print("Android 16: \(android16)")
 print("Android 15: \(android15)")
 print("Android 14: \(android14)")
 print("Android 13: \(android13)")
@@ -160,4 +149,3 @@ print("Android 4.3: \(android4point3)")
 print("Android 4.2: \(android4point2)")
 print("Android 4.1: \(android4point1)")
 print("Android 4.0: \(android4point0)")
-
