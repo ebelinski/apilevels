@@ -180,7 +180,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>M</code></td>
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=97.6 %}
-    <td rowspan="2">2015</td>
+    <td rowspan="3">2015</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
       <ul>
