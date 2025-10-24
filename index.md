@@ -173,14 +173,19 @@ This is an overview of all Android versions and their corresponding identifiers 
     {% include progress-cell.html rowspan=1 percentage=94.4 %}
   </tr>
   <tr>
-    <td>
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/marshmallow">Android 6</a></b>
     </td>
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
     {% include progress-cell.html rowspan=1 percentage=96.4 %}
-    <td rowspan="2">2015</td>
+    <td rowspan="3">2015</td>
+  </tr>
+  <tr class="table-notes"><td colspan="3">
+      <ul>
+        <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 23 or higher since June 2025.</li>              </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="3">
