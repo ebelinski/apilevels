@@ -1,7 +1,7 @@
 import Foundation
 
 /*
-Eugene's low tech iOS usage generator. Easiest to run this on CodeRunner for macOS.
+Eugene's low tech Android version usage generator. Easiest to run this on CodeRunner for macOS or some online Swift compiler.
 
 Steps:
 1. Go to https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide.
@@ -88,24 +88,6 @@ for i in 0..<androidVersions.count {
 	}
 }
 
-//var android13 = 0.0
-//var android12 = 0.0
-//var android11 = 0.0
-//var android10 = 0.0
-//var android9 = 0.0
-//var android8point1 = 0.0
-//var android8point0 = 0.0
-//var android7point1 = 0.0
-//var android7point0 = 0.0
-//var android6 = 0.0
-//var android5point1 = 0.0
-//var android5point0 = 0.0
-//var android4point4 = 0.0
-//var android4point3 = 0.0
-//var android4point2 = 0.0
-//var android4point1 = 0.0
-//var android4point0 = 0.0
-
 android15 += android16
 android14 += android15
 android13 += android14
@@ -168,4 +150,3 @@ print("Android 4.3: \(android4point3)")
 print("Android 4.2: \(android4point2)")
 print("Android 4.1: \(android4point1)")
 print("Android 4.0: \(android4point0)")
-
