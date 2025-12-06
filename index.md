@@ -179,7 +179,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td>Level 23</td>
     <td><code>M</code></td>
     <td>Marshmallow</td>
-    {% include progress-cell.html rowspan=1 percentage=97.5 %}
+    {% include progress-cell.html rowspan=2 percentage=97.5 %}
     <td rowspan="3">2015</td>
   </tr>
   <tr class="table-notes"><td colspan="3">
