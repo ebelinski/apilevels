@@ -1,7 +1,7 @@
 import Foundation
 
 /*
-Eugene's low tech iOS usage generator. Easiest to run this on CodeRunner for macOS.
+Eugene's low tech Android version usage generator. Easiest to run this on CodeRunner for macOS or some online Swift compiler.
 
 Steps:
 1. Go to https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide.
@@ -10,8 +10,8 @@ Steps:
 */
 
 let data = """
-"Date","12.0","11.0","10.0","13.0","9.0 Pie","8.1 Oreo","8.0 Oreo","7.0 Nougat","6.0 Marshmallow","5.1 Lollipop","7.1 Nougat","4.4 KitKat","5.0 Lollipop","4.3 Jelly Bean","4.2 Jelly Bean","4.0 Ice Cream Sandwich","14.0","4.1 Jelly Bean","23.3","23.1","2.2 Froyo","22.1","23.7","22.9","Other"
-2023-10,18.26,17.81,9.35,36.47,6.63,2.32,3.14,1.64,1.56,0.9,0.48,0.3,0.49,0.04,0.03,0.02,0.35,0.02,0,0,0.03,0,0.01,0,0.15
+"Date","14.0","13.0","15.0","12.0","11.0","10.0","9.0 Pie","8.0 Oreo","5.0 Lollipop","6.0 Marshmallow","8.1 Oreo","7.0 Nougat","16.0","5.1 Lollipop","7.1 Nougat","4.4 KitKat","4.3 Jelly Bean","24.1","25.2","25.8","Other"
+2025-10,15.08,14.96,29.78,10.93,9.04,4.78,2.67,1.43,2.03,1.76,1.6,0.61,4.57,0.27,0.28,0.05,0.02,0,0,0.07,0.06
 """
 
 let rows = data.split(separator: "\n")
@@ -19,6 +19,9 @@ let rows = data.split(separator: "\n")
 let androidVersions = Array(rows[0].split(separator: ",")[1...])
 let percentages = Array(rows[1].split(separator: ",")[1...])
 
+var android16 = 0.0
+var android15 = 0.0
+var android14 = 0.0
 var android13 = 0.0
 var android12 = 0.0
 var android11 = 0.0
@@ -40,8 +43,14 @@ var android4point0 = 0.0
 for i in 0..<androidVersions.count {
 	let (version, percentage) = (String(androidVersions[i]), Double(percentages[i])!)
 	
-	if version.contains("21.") || version.contains("22.") {
+	if version.contains("21.") || version.contains("22.") || version.contains("23.") || version.contains("24.") || version.contains("25.") {
 		continue // Ignore weird versions
+	} else if version.contains("16.") {
+		android16 += percentage
+	} else if version.contains("15.") {
+		android15 += percentage
+	} else if version.contains("14.") {
+		android14 += percentage
 	} else if version.contains("13.") {
 		android13 += percentage
 	} else if version.contains("12.") {
@@ -79,24 +88,9 @@ for i in 0..<androidVersions.count {
 	}
 }
 
-//var android13 = 0.0
-//var android12 = 0.0
-//var android11 = 0.0
-//var android10 = 0.0
-//var android9 = 0.0
-//var android8point1 = 0.0
-//var android8point0 = 0.0
-//var android7point1 = 0.0
-//var android7point0 = 0.0
-//var android6 = 0.0
-//var android5point1 = 0.0
-//var android5point0 = 0.0
-//var android4point4 = 0.0
-//var android4point3 = 0.0
-//var android4point2 = 0.0
-//var android4point1 = 0.0
-//var android4point0 = 0.0
-
+android15 += android16
+android14 += android15
+android13 += android14
 android12 += android13
 android11 += android12
 android10 += android11
@@ -115,6 +109,9 @@ android4point1 += android4point2
 android4point0 += android4point1
 
 // Round to 1 decimal place
+android16 = round(android16 * 10) / 10.0
+android15 = round(android15 * 10) / 10.0
+android14 = round(android14 * 10) / 10.0
 android13 = round(android13 * 10) / 10.0
 android12 = round(android12 * 10) / 10.0
 android11 = round(android11 * 10) / 10.0
@@ -133,6 +130,9 @@ android4point2 = round(android4point2 * 10) / 10.0
 android4point1 = round(android4point1 * 10) / 10.0
 android4point0 = round(android4point0 * 10) / 10.0
 
+print("Android 16: \(android16)")
+print("Android 15: \(android15)")
+print("Android 14: \(android14)")
 print("Android 13: \(android13)")
 print("Android 12: \(android12)")
 print("Android 11: \(android11)")
@@ -150,4 +150,3 @@ print("Android 4.3: \(android4point3)")
 print("Android 4.2: \(android4point2)")
 print("Android 4.1: \(android4point1)")
 print("Android 4.0: \(android4point0)")
-
