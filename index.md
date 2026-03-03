@@ -37,8 +37,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       Cinnamon Bun
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    <td><i>No data</i></td>
-    <td>2026</td>
+    {% include progress-cell.html rowspan=1 percentage=0 %}
+    <td><i>TBD</i></td>
   </tr>
   <tr>
     <td>
