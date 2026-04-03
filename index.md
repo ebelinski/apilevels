@@ -29,7 +29,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>
-      <b><a href="https://developer.android.com/about/versions/17">Android 17</a></b>
+      <b><a href="https://developer.android.com/about/versions/17">Android 17</a> <sup class="beta">BETA</sup></b>
     </td>
     <td>Level 37</td>
     <td><code>CINNAMON_BUN</code></td>
