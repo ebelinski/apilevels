@@ -25,8 +25,8 @@ import os
 import re
 import sys
 
-import requests
 import urllib.parse
+import urllib.request
 from datetime import datetime
 from typing import Optional
 
@@ -40,17 +40,16 @@ from typing import Optional
 # a pretty crude parser which relies on the data for each Android version being inserted
 # in the table row for a particular API level, see level_to_version dict below.
 #
-# MacOS Note:  Should work with the python3 that comes with the Xcode command line tools, but
-# you'll need to install the 'requests' module, for example:
-#      python3 -m pip install requests
+# MacOS Note:  Should work with the python3 that comes with the Xcode command line tools.
 
 versions_to_report_on = [
-    '14.0', '13.0', '12.0', '11.0', '10.0', '9.0',
+    '17.0', '16.0', '15.0', '14.0', '13.0', '12.0', '11.0', '10.0', '9.0',
     '8.1', '8.0', '7.1', '7.0', '6.0', '5.1', '5.0',
     '4.4', '4.3', '4.2', '4.1', '4.0'
 ]
 
 level_to_version = {
+    37: '17.0', 36: '16.0', 35: '15.0',
     34: '14.0', 33: '13.0', 32: '12.0', 30: '11.0', 29: '10.0', 28: '9.0',
     27: '8.1', 26: '8.0', 25: '7.1', 24: '7.0', 23: '6.0', 22: '5.1', 21: '5.0',
     20: '4.4', 18: '4.3', 17: '4.2', 16: '4.1', 15: '4.0'
@@ -69,21 +68,17 @@ def generate_stats_url() -> str:
         'region': 'Worldwide',
         'csv': '1'
     }
-    date_string = last_month_as_string()
+    date_string = previous_month().strftime("%Y-%m")
     parameters['fromMonthYear'] = date_string
     parameters['toMonthYear'] = date_string
     return base + join_parameters(parameters)
 
 
-def last_month_as_string() -> str:
-    month = datetime.now().month
-    year = datetime.now().year
-    if month == 1:
-        month = 12
-        year -= 1
-    else:
-        month -= 1
-    return "{}-{:02d}".format(year, month)
+def previous_month() -> datetime:
+    now = datetime.now()
+    if now.month == 1:
+        return datetime(now.year - 1, 12, 1)
+    return datetime(now.year, now.month - 1, 1)
 
 
 def join_parameters(parameters: dict[str, str]) -> str:
@@ -103,15 +98,13 @@ def version_key(line: str) -> Optional[str]:
 
 
 def download(url: str) -> dict[str, float]:
-    response = requests.get(url)
-    response.raise_for_status()
-
-    lines = (line.decode('utf-8') for line in response.iter_lines())
-    values = dict()
-    for row in csv.reader(lines):
-        key = version_key(row[0])
-        if key:
-            values[key] = float(row[1])
+    with urllib.request.urlopen(url) as response:
+        lines = (line.decode('utf-8') for line in response)
+        values = dict()
+        for row in csv.reader(lines):
+            key = version_key(row[0])
+            if key:
+                values[key] = float(row[1])
     return values
 
 
@@ -119,7 +112,7 @@ def accumulate(input_values: dict[str, float]) -> dict[str, float]:
     cumulative = 0.0
     values = dict()
     for key in versions_to_report_on:
-        cumulative += input_values[key]
+        cumulative += input_values.get(key, 0.0)
         values[key] = cumulative
     return values
 
@@ -137,9 +130,9 @@ class IndexUpdater:
         self.level_re = re.compile('.*Level (\\d+)')
         # Matches a line with a progressive-cell and extracts the current value.
         self.data_re = re.compile('(.*progress-cell.html.* percentage=)([0-9.]+)(.*)')
-        # Matches and extracts the "last updated" date.
+        # Matches and extracts the "last updated" date and the StatCounter data month.
         self.updated_re = re.compile(
-            '(\\s+<p>Cumulative.*updated on <b>)(\\w+ \\d+, \\d+)(</b> using.*)')
+            '(\\s+<p>Cumulative.*updated on )(\\w+ \\d+, \\d+)( using <b>)(\\w+ \\d+)(</b>.*)')
         # Current 'state', which is a reference to the method to use to process the next line.
         self.process = self.init
         # Last API level found which has not yet been used, else None.
@@ -201,8 +194,10 @@ class IndexUpdater:
         match = re.match(self.updated_re, line)
         if match:
             self.process = self.done
-            return ("{}{}{}\n"
-                    .format(match[1], datetime.now().strftime("%B %d, %Y"), match[3]))
+            return "{}{}{}{}{}\n".format(
+                match[1], datetime.now().strftime("%B %d, %Y"),
+                match[3], previous_month().strftime("%B %Y"),
+                match[5])
         return line
 
     # State reached after all substitutions have been performed.
