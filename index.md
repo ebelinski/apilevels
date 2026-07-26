@@ -28,33 +28,54 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
   </tr>
   <tr>
-    <td>
-      <b><a href="https://developer.android.com/about/versions/17">Android 17</a> <sup class="beta">BETA</sup></b>
+    <td rowspan="2">
+      <b><a href="https://developer.android.com/about/versions/17">Android 17</a></b>
     </td>
-    <td>Level 37</td>
-    <td><code>CINNAMON_BUN</code></td>
     <td>
+      Level 37.1
+      <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr1">Android 17 QPR1</a> <sup class="beta">BETA</sup></span>
+    </td>
+    <td><code>CINNAMON_BUN_1</code></td>
+    <td rowspan="2">
       Cinnamon Bun
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=0 %}
-    <td><i>TBD</i></td>
+    {% include progress-cell.html rowspan=2 percentage=0 %}
+    <td rowspan="2">2026</td>
   </tr>
   <tr>
-    <td>
+    <td>Level 37 <span class="subversion">Android 17</span></td>
+    <td><code>CINNAMON_BUN</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3">
       <b><a href="https://developer.android.com/about/versions/16">Android 16</a></b>
     </td>
-    <td>Level 36</td>
-    <td><code>BAKLAVA</code></td>
     <td>
+      Level 36.1
+      <span class="subversion"><a href="https://developer.android.com/about/versions/16/qpr2">Android 16 QPR2</a></span>
+    </td>
+    <td><code>BAKLAVA_1</code></td>
+    <td rowspan="2">
       Baklava
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=22.3 %}
-    <td>2025</td>
+    {% include progress-cell.html rowspan=3 percentage=22.3 %}
+    <td rowspan="3">2025</td>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td>Level 36 <span class="subversion">Android 16</span></td>
+    <td><code>BAKLAVA</code></td>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 36+</a> for new apps and app updates as of August 31, 2026.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="1">
       <b><a href="https://developer.android.com/about/versions/15">Android 15</a></b>
     </td>
     <td>Level 35</td>
@@ -63,15 +84,8 @@ This is an overview of all Android versions and their corresponding identifiers 
       Vanilla Ice Cream
       <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=2 percentage=41.0 %}
-    <td rowspan="2">2024</td>
-  </tr>
-  <tr class="table-notes">
-    <td colspan="3">
-      <ul>
-        <li><code>targetSdk</code> <a href="https://developer.android.com/google/play/requirements/target-sdk">must be 35+</a> for new apps and app updates as of August 31, 2025.</li>
-      </ul>
-    </td>
+    {% include progress-cell.html rowspan=1 percentage=41.0 %}
+    <td rowspan="1">2024</td>
   </tr>
   <tr>
     <td rowspan="1">
@@ -395,7 +409,11 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td class="nowrap"><code>Build.VERSION.SDK_INT</code></td>
-    <td>The SDK version of the Android OS currently running on the user's device. For example, on a device running Android 11, this value will be <code>30</code> (aka <code>Build.VERSION_CODES.R</code>), even if the target and compile SDK of the app is different.</td>
+    <td>The major API level of the Android OS currently running on the user's device. For example, on a device running Android 11, this value will be <code>30</code> (aka <code>Build.VERSION_CODES.R</code>), even if the target and compile SDK of the app is different. Minor SDK releases retain their integer major API level.</td>
+  </tr>
+  <tr>
+    <td class="nowrap"><code>Build.VERSION.SDK_INT_FULL</code></td>
+    <td>The full API level of the Android OS, including its minor API level. For example, Android 17 QPR1 is API level 37.1 and reports <code>3700001</code> (aka <code>Build.VERSION_CODES_FULL.CINNAMON_BUN_1</code>), while <code>SDK_INT</code> remains <code>37</code>. Compare against named constants because the integer encoding may change.</td>
   </tr>
 </table>
 </div>
@@ -421,5 +439,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ## See also
 
-* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES) official reference
+* [Build.VERSION](https://developer.android.com/reference/android/os/Build.VERSION) for available runtime version constants
+* [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES) official reference of versions
+* [Build.VERSION_CODES_FULL](https://developer.android.com/reference/android/os/Build.VERSION_CODES_FULL) official reference including minor SDK releases
 * [Codenames, Tags, and Build Numbers](https://source.android.com/setup/start/build-numbers)
