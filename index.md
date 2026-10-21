@@ -28,20 +28,27 @@ This is an overview of all Android versions and their corresponding identifiers 
     </th>
   </tr>
   <tr>
-    <td rowspan="2">
+    <td rowspan="3">
       <b><a href="https://developer.android.com/about/versions/17">Android 17</a></b>
     </td>
+    <td>
+      Level 37.2
+      <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr2">Android 17 QPR2</a> <sup class="beta">BETA</sup></span>
+    </td>
+    <td><code>CINNAMON_BUN_2</code></td>
+    <td rowspan="3">
+      Cinnamon Bun
+      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+    </td>
+    {% include progress-cell.html rowspan=3 percentage=0 %}
+    <td rowspan="3">2026</td>
+  </tr>
+  <tr>
     <td>
       Level 37.1
       <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr1">Android 17 QPR1</a> <sup class="beta">BETA</sup></span>
     </td>
     <td><code>CINNAMON_BUN_1</code></td>
-    <td rowspan="2">
-      Cinnamon Bun
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
-    </td>
-    {% include progress-cell.html rowspan=2 percentage=0 %}
-    <td rowspan="2">2026</td>
   </tr>
   <tr>
     <td>Level 37 <span class="subversion">Android 17</span></td>
