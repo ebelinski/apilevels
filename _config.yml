@@ -23,6 +23,5 @@ exclude:
   - README.md
   - CODE_OF_CONDUCT.md
   - LICENSE
-  - manifest.json
   - usage_reporter.py
   - meta/
