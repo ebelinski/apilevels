@@ -151,7 +151,7 @@ class IndexUpdater:
             raise ParseError('Failed to find all values')
         for level in level_to_version.keys():
             if level not in self.seen_api_levels:
-                raise ParseError('Did not update data for API level' + level)
+                raise ParseError('Did not update data for API level ' + str(level))
         os.rename(self.tmp_filename, self.in_filename)
 
     # Initial state: looking for the first table in the file.
