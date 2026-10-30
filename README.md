@@ -30,4 +30,4 @@ All of the website content is in the [index.md](/index.md), which has a mix of H
 
 ## License
 
-This repository is licenced under the [MIT License](/LICENSE.md).
+This repository is licenced under the [MIT License](/LICENSE).
