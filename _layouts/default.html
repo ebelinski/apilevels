@@ -4,11 +4,13 @@
   <body>
     {% include header.html %}
 
+    <main class="container"><div id="page-content">
     {% if page.title %}
     <h2>{{ page.title }}</h2>
     {% endif %}
 
     {{ content }}
+    </div></main>
 
     {% include footer.html %}
     {% if jekyll.environment == 'production' %}

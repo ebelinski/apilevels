@@ -6,10 +6,10 @@ layout: default
 This is an overview of all Android versions and their corresponding identifiers for Android developers. Anyone is welcome to open [an issue or pull request](https://github.com/ebelinski/apilevels). Happy developing!
 {: #intro}
 
-<div id="compact-toc">
+<nav id="compact-toc" aria-label="Contents">
 * TOC
 {:toc}
-</div>
+</nav>
 
 <div id="main-table" class="table-responsive">
 <table class="full-width">
