@@ -180,6 +180,12 @@ code {
   overflow-x: auto;
 }
 
+// On narrow screens the main table scrolls sideways anyway, so keep it wide
+// enough that its cells don't wrap onto several lines.
+#main-table > table {
+  min-width: 56rem;
+}
+
 table {
   margin: 1em 0px;
   border-collapse: collapse;
