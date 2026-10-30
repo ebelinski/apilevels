@@ -1,5 +1,7 @@
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 .DS_Store
-.jekyll-cache
+vendor
+.claude/settings.local.json
