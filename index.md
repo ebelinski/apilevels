@@ -381,7 +381,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ## Definitions
 
-#### Gradle files
+### Gradle files
 
 <div class="table-responsive">
 <table class="full-width">
@@ -410,7 +410,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 </table>
 </div>
 
-#### Code files
+### Code files
 
 <div class="table-responsive">
 <table class="full-width">
