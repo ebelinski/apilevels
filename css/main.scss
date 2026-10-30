@@ -2,20 +2,74 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$primary: #337ab7 !default; // Override
-$primaryDark: #5ab6ff !default;
-$text: black;
-$textDark: white;
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap-5.0.2/scss/bootstrap";
-
-body {
-  font-size: 1.15em;
+:root {
+  --text: #212529;
+  --background: white;
+  --link: #337ab7;
+  --link-hover: #296292;
+  --rule: black;
+  --code: #d63384;
+  --table-border: #333;
+  --table-header: #ddd;
+  --progress: #60ECAD;
+  --progress-empty: white;
+  --toc-background: #fafafa;
+  --subversion-background: #d1f2e3;
+  --subversion-text: #547d6b;
+  --notes-background: #f2f2f2;
+  --notes-text: #222;
+  --notes-code: #333;
 }
 
-.container {
-  max-width: 1100px;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: white;
+    --background: #222;
+    --link: #5ab6ff;
+    --link-hover: #5ab6ff;
+    --rule: white;
+    --table-border: #999;
+    --table-header: #333;
+    --progress: #006236;
+    --progress-empty: transparent;
+    --toc-background: #333;
+    --subversion-background: #095b36;
+    --subversion-text: #cdf3e2;
+    --notes-background: #3b3b3b;
+    --notes-text: #eee;
+    --notes-code: #ddd;
+  }
+}
+
+// Base styles
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.15em;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--background);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 h1 {
@@ -28,15 +82,77 @@ h1 {
   font-size: 1.1em;
 }
 
-a {
-  text-decoration: none;
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+
+  ol, ul {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+
+  &:not([href]):not([class]) {
+    color: inherit;
+  }
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875em;
+  color: var(--code);
+  overflow-wrap: break-word;
+
+  a > & {
+    color: inherit;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+// Layout
 
 #site-title {
   text-align: center;
   border-width: 0px 0px 1px 0px;
   border-style: solid;
-  border-color: black;
+  border-color: var(--rule);
   padding: 0.5em 0rem;
   margin: 0em;
 }
@@ -44,7 +160,7 @@ a {
 #site-footer {
   border-width: 1px 0px 0px 0px;
   border-style: solid;
-  border-color: black;
+  border-color: var(--rule);
   margin: 0em;
   padding: 1.4em 0em;
 
@@ -55,15 +171,24 @@ a {
   margin: 1em 0em;
 }
 
+// Tables
+
+.table-responsive {
+  overflow-x: auto;
+}
+
 table {
   margin: 1em 0px;
+  border-collapse: collapse;
 
   th {
-    background: #ddd;
+    background: var(--table-header);
+    text-align: inherit;
+    text-align: -webkit-match-parent;
   }
 
   th, td {
-    border: 1px solid #333;
+    border: 1px solid var(--table-border);
     padding: 4px 10px;
     vertical-align: top;
 
@@ -73,12 +198,41 @@ table {
   }
 
   td.progress-cell {
-    background: linear-gradient(to right, #60ECAD var(--percentage), white var(--percentage));
+    background: linear-gradient(to right, var(--progress) var(--percentage), var(--progress-empty) var(--percentage));
   }
 }
 
 .full-width {
   width: 100%;
+}
+
+.table-notes {
+  font-size: 80%;
+  background-color: var(--notes-background);
+  color: var(--notes-text);
+
+  ul {
+    margin: 0em;
+    padding-left: 1em;
+  }
+
+  code {
+    color: var(--notes-code);
+    font-weight: bold;
+    font-size: 90%;
+  }
+}
+
+.subversion {
+  display: inline-block;
+  font-size: 65%;
+  font-weight: bold;
+  background: var(--subversion-background);
+  color: var(--subversion-text);
+  padding: 1px 5px;
+  border-radius: 10px;
+  vertical-align: 10%;
+  margin-left: 3px;
 }
 
 .beta {
@@ -88,9 +242,13 @@ table {
   color: #cc9300;
 }
 
-ul {
-  list-style-type: square;
+@media screen and (min-width: 767px) {
+  .nowrap {
+    white-space: nowrap;
+  }
 }
+
+// Table of contents
 
 #markdown-toc {
   font-weight: bold;
@@ -99,7 +257,7 @@ ul {
   padding: 0.2em;
   border: 1px solid #999;
   border-radius: 5px;
-  background: #fafafa;
+  background: var(--toc-background);
   list-style-type: none;
   color: #999;
   margin: 0.5em 0em;
@@ -124,101 +282,6 @@ ul {
     }
   }
 }
-@media screen and (min-width: 767px) {
-  .nowrap {
-    white-space: nowrap;
-  }
-}
-
-.subversion {
-  display: inline-block;
-  font-size: 65%;
-  font-weight: bold;
-  background: #d1f2e3;
-  color: #547d6b;
-  padding: 1px 5px;
-  border-radius: 10px;
-  vertical-align: 10%;
-  margin-left: 3px;
-}
-
-.table-notes {
-  ul {
-    margin: 0em;
-    padding-left: 1em;
-  }
-
-  code {
-    color: #333;
-    font-weight: bold;
-    font-size: 90%;
-  }
-
-  font-size: 80%;
-  background-color: #f2f2f2;
-  color: #222;
-}
-
-// TODO: Refactor this later
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #222;
-    color: white;
-  }
-
-  a, a:hover {
-    color: $primaryDark;
-  }
-
-  #site-title {
-    border-color: $textDark;
-  }
-
-  #site-footer {
-    border-color: $textDark;
-  }
-
-  #markdown-toc {
-    background: #333;
-    border: 1px solid #999;
-  }
-
-  table th {
-    background: #333;
-  }
-
-  table th, table td {
-    border: 1px solid #999;
-  }
-
-  table {
-    td.progress-cell {
-      background: linear-gradient(to right, #006236 var(--percentage), rgba(0, 0, 0, 0) var(--percentage));
-    }
-  }
-
-  .subversion {
-    background: #095b36;
-    color: #cdf3e2;
-  }
-
-  .table-notes {
-    ul {
-      margin: 0em;
-      padding-left: 1em;
-    }
-
-    code {
-      color: #ddd;
-      font-weight: bold;
-      font-size: 90%;
-    }
-
-    font-size: 80%;
-    background-color: #3B3B3B;
-    color: #eee;
-  }
-}
 
 @media print {
   #site-title,
@@ -241,7 +304,7 @@ ul {
   }
 
   a {
-    color: $body-color;
+    color: #212529;
     text-decoration: none !important;
   }
 }
