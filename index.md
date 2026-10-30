@@ -40,7 +40,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>CINNAMON_BUN_2</code></td>
     <td rowspan="3">
       Cinnamon Bun
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=3 percentage=1.8 %}
     <td rowspan="3">2026</td>
@@ -67,7 +67,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>BAKLAVA_1</code></td>
     <td rowspan="2">
       Baklava
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=3 percentage=39.4 %}
     <td rowspan="3">2025</td>
@@ -91,7 +91,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>VANILLA_ICE_CREAM</code></td>
     <td>
       Vanilla Ice Cream
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=55.3 %}
     <td rowspan="1">2024</td>
@@ -104,7 +104,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>UPSIDE_DOWN_CAKE</code></td>
     <td>
       Upside Down Cake
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=67.4 %}
     <td rowspan="1">2023</td>
@@ -117,7 +117,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>TIRAMISU</code></td>
     <td>
       Tiramisu
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=79.0 %}
     <td rowspan="2">2022</td>
@@ -133,7 +133,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>S_V2</code></td>
     <td rowspan="2">
       Snow Cone
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=2 percentage=86.6 %}
   </tr>
@@ -150,7 +150,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td><code>R</code></td>
     <td>
       Red Velvet Cake
-      <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+      <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
     {% include progress-cell.html rowspan=1 percentage=92.9 %}
     <td>2020</td>
