@@ -79,6 +79,10 @@ table {
   td.light-green {
     background-color: #e7fae8;
   }
+
+  td.progress-cell {
+    background: linear-gradient(to right, #60ECAD var(--percentage), white var(--percentage));
+  }
 }
 
 .full-width {
@@ -249,6 +253,10 @@ pre {
 
     td.light-green {
       background-color: #0d4d14;
+    }
+
+    td.progress-cell {
+      background: linear-gradient(to right, #006236 var(--percentage), rgba(0, 0, 0, 0) var(--percentage));
     }
   }
 
