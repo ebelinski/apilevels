@@ -98,7 +98,7 @@ def version_key(line: str) -> Optional[str]:
 
 
 def download(url: str) -> dict[str, float]:
-    with urllib.request.urlopen(url) as response:
+    with urllib.request.urlopen(url, timeout=60) as response:
         lines = (line.decode('utf-8') for line in response)
         values = dict()
         for row in csv.reader(lines):
