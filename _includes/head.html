@@ -1,12 +1,10 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
 
-  <title>API Levels | Android versions, SDK/API levels, version codes, codenames, and cumulative usage</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}API Levels | Android versions, SDK/API levels, version codes, codenames, and cumulative usage{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="{{ site.keywords }}">
   <meta name="author" content="{{ site.author }}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -27,8 +25,8 @@
   <meta name="twitter:site" content="@EugeneBelinski" />
   <meta name="twitter:creator" content="@EugeneBelinski" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://apilevels.com/" />
-  <meta property="og:title" content="Android API Levels" />
-  <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="https://apilevels.com/logo.png" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{{ "/logo.png" | absolute_url }}" />
 </head>
