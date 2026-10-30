@@ -5,8 +5,8 @@
 :root {
   --text: #212529;
   --background: white;
-  --link: #337ab7;
-  --link-hover: #296292;
+  --link: #2a6496;
+  --link-hover: #1d4568;
   --rule: black;
   --code: #d63384;
   --table-border: #333;
@@ -15,7 +15,8 @@
   --progress-empty: white;
   --toc-background: #fafafa;
   --subversion-background: #d1f2e3;
-  --subversion-text: #547d6b;
+  --subversion-text: #456b5c;
+  --beta: #8a6100;
   --notes-background: #f2f2f2;
   --notes-text: #222;
   --notes-code: #333;
@@ -28,13 +29,15 @@
     --link: #5ab6ff;
     --link-hover: #5ab6ff;
     --rule: white;
+    --code: #e685b5;
     --table-border: #999;
     --table-header: #333;
     --progress: #006236;
     --progress-empty: transparent;
     --toc-background: #333;
-    --subversion-background: #095b36;
+    --subversion-background: #074a2c;
     --subversion-text: #cdf3e2;
+    --beta: #f0b429;
     --notes-background: #3b3b3b;
     --notes-text: #eee;
     --notes-code: #ddd;
@@ -239,7 +242,7 @@ table {
   font-weight: bold;
   display: inline-block;
   padding: 0px 2px;
-  color: #cc9300;
+  color: var(--beta);
 }
 
 @media screen and (min-width: 767px) {
