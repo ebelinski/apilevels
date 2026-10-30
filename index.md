@@ -13,20 +13,22 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 <div id="main-table" class="table-responsive">
 <table class="full-width">
-  <tr>
-    <th style="min-width: 6.5em">Version</th>
-    <th>SDK / API level</th>
-    <th><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version code</a></th>
-    <th>Codename</th>
-    <th>
-      Cumulative<br>usage
-      <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
-    </th>
-    <th>
-      Year
-      <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>
-    </th>
-  </tr>
+  <thead>
+    <tr>
+      <th scope="col" style="min-width: 6.5em">Version</th>
+      <th scope="col">SDK / API level</th>
+      <th scope="col"><a href="https://developer.android.com/reference/kotlin/android/os/Build.VERSION_CODES">Version code</a></th>
+      <th scope="col">Codename</th>
+      <th scope="col">
+        Cumulative<br>usage
+        <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
+      </th>
+      <th scope="col">
+        Year
+        <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>
+      </th>
+    </tr>
+  </thead>
   <tr>
     <td rowspan="3">
       <b><a href="https://developer.android.com/about/versions/17">Android 17</a></b>
@@ -383,11 +385,13 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 <div class="table-responsive">
 <table class="full-width">
-  <tr>
-    <th class="nowrap">Kotlin variable</th>
-    <th class="nowrap">Groovy variable</th>
-    <th>Definition</th>
-  </tr>
+  <thead>
+    <tr>
+      <th scope="col" class="nowrap">Kotlin variable</th>
+      <th scope="col" class="nowrap">Groovy variable</th>
+      <th scope="col">Definition</th>
+    </tr>
+  </thead>
   <tr>
     <td class="nowrap"><code>minSdk</code></td>
     <td class="nowrap"><code>minSdkVersion</code></td>
@@ -410,10 +414,12 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 <div class="table-responsive">
 <table class="full-width">
-  <tr>
-    <th>Variable</th>
-    <th>Definition</th>
-  </tr>
+  <thead>
+    <tr>
+      <th scope="col">Variable</th>
+      <th scope="col">Definition</th>
+    </tr>
+  </thead>
   <tr>
     <td class="nowrap"><code>Build.VERSION.SDK_INT</code></td>
     <td>The major API level of the Android OS currently running on the user's device. For example, on a device running Android 11, this value will be <code>30</code> (aka <code>Build.VERSION_CODES.R</code>), even if the target and compile SDK of the app is different. Minor SDK releases retain their integer major API level.</td>
