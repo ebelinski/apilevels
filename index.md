@@ -303,12 +303,12 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
-    <tr class="table-notes"><td colspan="3">
-      <ul>
-        <li>Earlier <a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">required</a> a <code>minSdk</code> of 14 or higher.</li>
-      </ul>
-    </td></tr>
   </tr>
+  <tr class="table-notes"><td colspan="3">
+    <ul>
+      <li>Earlier <a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/topic/libraries/support-library#api-versions">required</a> a <code>minSdk</code> of 14 or higher.</li>
+    </ul>
+  </td></tr>
   <tr>
     <td rowspan="3"><b>Android 3</b></td>
     <td>Level 13 <span class="subversion">Android 3.2</span></td>
