@@ -24,4 +24,3 @@ exclude:
   - CODE_OF_CONDUCT.md
   - LICENSE
   - usage_reporter.py
-  - meta/

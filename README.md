@@ -12,6 +12,16 @@ To make contributions, you can submit pull requests with changes to the relevant
 
 The website should now be visible in a browser at http://127.0.0.1:4000/.
 
+## Updating usage figures
+
+The cumulative usage figures come from [Statcounter GlobalStats](https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide). To download the previous month's figures and write them into `index.md`, run:
+
+```
+python3 usage_reporter.py update
+```
+
+Run it without `update` to only print the figures.
+
 ## Contributing
 
 You may open [issues](https://github.com/ebelinski/apilevels/issues) for suggestions and [pull request](https://github.com/ebelinski/apilevels/pulls) for proposed changes. All contributors must follow the [code of conduct](/CODE_OF_CONDUCT.md). Any contributions you make must follow the [license](#license).
