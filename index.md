@@ -11,7 +11,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 {:toc}
 </nav>
 
-<div id="main-table" class="table-responsive">
+<div id="main-table" class="table-responsive" tabindex="0" role="region" aria-label="Android versions">
 <table class="full-width">
   <thead>
     <tr>
@@ -383,7 +383,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ### Gradle files
 
-<div class="table-responsive">
+<div class="table-responsive" tabindex="0" role="region" aria-labelledby="gradle-files">
 <table class="full-width">
   <thead>
     <tr>
@@ -412,7 +412,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ### Code files
 
-<div class="table-responsive">
+<div class="table-responsive" tabindex="0" role="region" aria-labelledby="code-files">
 <table class="full-width">
   <thead>
     <tr>
