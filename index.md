@@ -218,7 +218,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
       <ul>
         <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 24 or higher since July 2026.</li>
-        <li>Google Play services v26.28+ requires API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
+        <li>Google Play services <a href="https://support.google.com/googleplay/answer/9037938">requires</a> API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
       </ul>
     </td>
   </tr>
@@ -236,7 +236,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <ul>
         <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 23 or higher since June 2025.</li>
         <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 23 or higher since version 1.10.</li>
-        <li>Google Play services v24.28+ requires API level 23 or higher <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">since July 2024</a>.</li>
+        <li>Google Play services requires API level 23 or higher <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">since July 2024</a>.</li>
       </ul>
     </td>
   </tr>
@@ -259,7 +259,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <ul>
       <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 21 or higher since April 2024.</li>
       <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> 1.9 and earlier require a <code>minSdk</code> of 21 or higher.</li>
-      <li>Google Play services v23.30.99+ (August 2023) <a href="https://android-developers.googleblog.com/2023/07/google-play-services-discontinuing-updates-for-kitkat.html">drops support</a> for API levels below 21.</li>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2023/07/google-play-services-discontinuing-updates-for-kitkat.html">stops updating</a> on API levels below 21 after v23.30.99 (August 2023).</li>
     </ul>
   </td></tr>
   <tr>
@@ -283,7 +283,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
     <ul>
       <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://android-developers.googleblog.com/2023/10/androidx-minsdkversion-19.html">require</a> a <code>minSdk</code> of 19 or higher since October 2023.</li>
-      <li>Google Play services v21.33.56+ (July 2021) <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">drops support</a> for API levels below 19.</li>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2021/07/google-play-services-discontinuing-jelly-bean.html">stops updating</a> on API levels below 19 after v21.30.99 (August 2021).</li>
     </ul>
   </td></tr>
   <tr>
@@ -305,7 +305,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
     <ul>
-      <li>Google Play services v14.8.39+ (December 2018) <a href="https://android-developers.googleblog.com/2018/12/google-play-services-discontinuing.html">drops support</a> for API levels below 16.</li>
+      <li>Google Play services <a href="https://android-developers.googleblog.com/2018/12/google-play-services-discontinuing.html">stops updating</a> on API levels below 16 after v14.7.99 (announced December 2018).</li>
     </ul>
   </td></tr>
   <tr>
