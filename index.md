@@ -511,4 +511,4 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
 * [Build.VERSION](https://developer.android.com/reference/android/os/Build.VERSION) for available runtime version constants
 * [Build.VERSION_CODES](https://developer.android.com/reference/android/os/Build.VERSION_CODES) official reference of versions
 * [Build.VERSION_CODES_FULL](https://developer.android.com/reference/android/os/Build.VERSION_CODES_FULL) official reference including minor SDK releases
-* [Codenames, Tags, and Build Numbers](https://source.android.com/setup/start/build-numbers)
+* [Codenames, Tags, and Build Numbers](https://source.android.com/docs/setup/reference/build-numbers)
