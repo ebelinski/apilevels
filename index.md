@@ -99,7 +99,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes">
     <td colspan="3">
       <ul>
-        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 35+</a> for existing apps to stay available to new users on devices running an Android version higher than the app's <code>targetSdk</code> as of August 31, 2026.</li>
+        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 35+</a> for existing apps as of August 31, 2026. <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></li>
       </ul>
     </td>
   </tr>
@@ -502,6 +502,9 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
     </li>
     <li id="fn:4">
       <p>The years represent the year of first stable release of each version. The release dates are from <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES#constants_1"><code>android.os.Build.VERSION_CODES</code></a> including later versions' years from the <a href="https://blog.google/products/android/">Official Android blog</a> (<a href="https://blog.google/products/android/android-12/">12</a>, <a href="https://blog.google/products/android/12l-larger-screens/">12L</a>, <a href="https://blog.google/products/android/android-13/">13</a>, <a href="https://blog.google/products/android/android-14/">14</a>, <a href="https://blog.google/products/android/android-15/">15</a>, <a href="https://blog.google/products-and-platforms/platforms/android/android-16/">16</a>, <a href="https://blog.google/products-and-platforms/platforms/android/android-17-features/">17</a>) <a href="#fnref:4" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:5">
+      <p>Existing apps that target a lower API level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>. For example, new users can still install an app targeting API level 34 on Android 14 and lower, but not on Android 15 or higher. See <a href="#google-play-target-api-levels">Google Play target API levels</a> for other device types. <a href="#fnref:5" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
