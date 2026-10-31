@@ -48,7 +48,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>
       Level 37.1
-      <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr1">Android 17 QPR1</a> <sup class="beta">BETA</sup></span>
+      <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr1">Android 17 QPR1</a></span>
     </td>
     <td><code>CINNAMON_BUN_1</code></td>
   </tr>
