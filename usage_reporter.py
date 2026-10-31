@@ -40,6 +40,9 @@ from typing import Optional
 # a pretty crude parser which relies on the data for each Android version being inserted
 # in the table row for a particular API level, see level_to_version dict below.
 #
+# The script stops with an error if Statcounter reports an Android version it doesn't know
+# about, rather than leaving it out and understating every figure.  See check_unknown_version.
+#
 # MacOS Note:  Should work with the python3 that comes with the Xcode command line tools.
 
 versions_to_report_on = [
@@ -54,6 +57,10 @@ level_to_version = {
     27: '8.1', 26: '8.0', 25: '7.1', 24: '7.0', 23: '6.0', 22: '5.1', 21: '5.0',
     20: '4.4', 18: '4.3', 17: '4.2', 16: '4.1', 15: '4.0'
 }
+
+# Unknown versions with at least this market share (in percent) stop the script.  Smaller ones
+# are usually noise, such as '26.8'.
+unknown_share_limit = 0.5
 
 
 def generate_stats_url() -> str:
@@ -98,14 +105,35 @@ def version_key(line: str) -> Optional[str]:
 
 
 def download(url: str) -> dict[str, float]:
-    with urllib.request.urlopen(url) as response:
+    with urllib.request.urlopen(url, timeout=60) as response:
         lines = (line.decode('utf-8') for line in response)
         values = dict()
         for row in csv.reader(lines):
             key = version_key(row[0])
             if key:
                 values[key] = float(row[1])
+            else:
+                check_unknown_version(row)
     return values
+
+
+class UnknownVersionError(ValueError):
+    pass
+
+
+# Raises if a row that matches none of versions_to_report_on is the next Android release, at
+# any share, or has a market share of at least unknown_share_limit.
+def check_unknown_version(row: list[str]):
+    try:
+        major = int(float(row[0].split()[0]))
+        share = float(row[1])
+    except (ValueError, IndexError):
+        return  # The header row, 'Other' or a malformed row.
+    next_major = int(float(versions_to_report_on[0])) + 1
+    if major == next_major or share >= unknown_share_limit:
+        raise UnknownVersionError(
+            "Statcounter reports Android {} at {}%, which this script doesn't know about. "
+            "Add it to versions_to_report_on and level_to_version.".format(row[0], row[1]))
 
 
 def accumulate(input_values: dict[str, float]) -> dict[str, float]:
@@ -151,7 +179,7 @@ class IndexUpdater:
             raise ParseError('Failed to find all values')
         for level in level_to_version.keys():
             if level not in self.seen_api_levels:
-                raise ParseError('Did not update data for API level' + level)
+                raise ParseError('Did not update data for API level ' + str(level))
         os.rename(self.tmp_filename, self.in_filename)
 
     # Initial state: looking for the first table in the file.

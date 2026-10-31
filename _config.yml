@@ -9,11 +9,18 @@
 title: Android API Levels
 description: A quick reference table of Android versions with SDK & API levels, version codes, codenames, cumulative usage, and more.
 author: Eugene Belinski
-keywords: android,api,sdk,levels,version,codes,codename,usage,market,share,distribution
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://apilevels.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - usage_reporter.py

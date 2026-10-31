@@ -1,14 +1,13 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-  <title>API Levels | Android versions, SDK/API levels, version codes, codenames, and cumulative usage</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}API Levels | Android versions, SDK/API levels, version codes, codenames, and cumulative usage{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="{{ site.keywords }}">
   <meta name="author" content="{{ site.author }}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Favicon -->
@@ -17,16 +16,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#222222" media="(prefers-color-scheme: dark)">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@EugeneBelinski" />
-  <meta name="twitter:creator" content="@EugeneBelinski" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://apilevels.com/" />
-  <meta property="og:title" content="Android API Levels" />
-  <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="https://apilevels.com/logo.png" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{{ "/logo.png" | absolute_url }}" />
 </head>

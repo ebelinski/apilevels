@@ -1,7 +1,6 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby file: ".ruby-version"
 
-gem "jekyll", "4.3.2"
-gem "jekyll-redirect-from"
+gem "jekyll", "4.4.1"
 gem "jekyll-sitemap"
 gem "webrick"

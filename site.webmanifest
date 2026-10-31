@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Android API Levels",
+    "short_name": "API Levels",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
