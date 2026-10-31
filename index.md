@@ -394,6 +394,47 @@ This is an overview of all Android versions and their corresponding identifiers 
 </table>
 </div>
 
+## Google Play target API levels
+
+The minimum <code>targetSdk</code> that <a href="https://support.google.com/googleplay/android-developer/answer/11926878">Google Play requires</a> as of August 31, 2026. Existing apps that target a lower level are no longer available to new users on devices running newer Android versions.
+
+<div class="table-responsive" tabindex="0" role="region" aria-labelledby="google-play-target-api-levels">
+<table class="full-width">
+  <thead>
+    <tr>
+      <th scope="col">Device type</th>
+      <th scope="col">New apps and app updates</th>
+      <th scope="col">Existing apps</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Phones and tablets</td>
+    <td>Level 36</td>
+    <td>Level 35</td>
+  </tr>
+  <tr>
+    <td>Wear OS</td>
+    <td>Level 35</td>
+    <td>Level 34</td>
+  </tr>
+  <tr>
+    <td>Android Automotive OS</td>
+    <td>Level 35</td>
+    <td>Level 32</td>
+  </tr>
+  <tr>
+    <td>Android TV</td>
+    <td>Level 34</td>
+    <td>Level 33</td>
+  </tr>
+  <tr>
+    <td>Android XR</td>
+    <td>Level 34</td>
+    <td>Level 34</td>
+  </tr>
+</table>
+</div>
+
 ## Definitions
 
 ### Gradle files
