@@ -194,19 +194,25 @@ This is an overview of all Android versions and their corresponding identifiers 
     {% include progress-cell.html rowspan=1 percentage=99.1 %}
   </tr>
   <tr>
-    <td rowspan="2">
+    <td rowspan="3">
       <b><a href="https://developer.android.com/about/versions/nougat">Android 7</a></b>
     </td>
     <td>Level 25 <span class="subversion">Android 7.1</span></td>
     <td><code>N_MR1</code></td>
     <td rowspan="2">Nougat</td>
     {% include progress-cell.html rowspan=1 percentage=99.2 %}
-    <td rowspan="2">2016</td>
+    <td rowspan="3">2016</td>
   </tr>
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
     {% include progress-cell.html rowspan=1 percentage=99.4 %}
+  </tr>
+  <tr class="table-notes"><td colspan="3">
+      <ul>
+        <li>Google Play Services v26.28+ requires API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="2">
