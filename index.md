@@ -210,6 +210,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr class="table-notes"><td colspan="3">
       <ul>
+        <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 24 or higher since July 2026.</li>
         <li>Google Play Services v26.28+ requires API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
       </ul>
     </td>
