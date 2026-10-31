@@ -218,7 +218,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes"><td colspan="3">
       <ul>
         <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 24 or higher since July 2026.</li>
-        <li>Google Play Services v26.28+ requires API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
+        <li>Google Play services v26.28+ requires API level 24 or higher <a href="https://www.androidauthority.com/google-android-6-marshmallow-support-ended-3691168/">since July 2026</a>.</li>
       </ul>
     </td>
   </tr>
@@ -236,7 +236,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       <ul>
         <li><a href="https://developer.android.com/jetpack">Jetpack</a>/<a href="https://developer.android.com/jetpack/androidx">AndroidX</a> libraries <a href="https://developer.android.com/jetpack/androidx/versions#version-table">require</a> a <code>minSdk</code> of 23 or higher since June 2025.</li>
         <li><a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a> requires a <code>minSdk</code> of 23 or higher since version 1.10.</li>
-        <li>Google Play Services v24.28+ requires API Level 23 or higher <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">since July 2024</a>.</li>
+        <li>Google Play services v24.28+ requires API level 23 or higher <a href="https://9to5google.com/2024/07/11/android-lollipop-google-play-services/">since July 2024</a>.</li>
       </ul>
     </td>
   </tr>
@@ -451,7 +451,7 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
   <tr>
     <td class="nowrap"><code>minSdk</code></td>
     <td class="nowrap"><code>minSdkVersion</code></td>
-    <td>The minimum SDK version your app will support, defined in <code>build.gradle</code>. For example, if your <code>minSdk</code> is 26, this SDK version corresponds to API Level 26 and Android 8, so your app will only run on devices with Android 8 or higher.</td>
+    <td>The minimum SDK version your app will support, defined in <code>build.gradle</code>. For example, if your <code>minSdk</code> is 26, this SDK version corresponds to API level 26 and Android 8, so your app will only run on devices with Android 8 or higher.</td>
   </tr>
   <tr>
     <td class="nowrap"><code>targetSdk</code></td>
