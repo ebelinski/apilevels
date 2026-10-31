@@ -37,7 +37,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Level 37.2
       <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr2">Android 17 QPR2</a> <sup class="beta">BETA</sup></span>
     </td>
-    <td><code>CINNAMON_BUN_2</code></td>
+    <td><code>CINNAMON_BUN_2</code> <sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup></td>
     <td rowspan="3">
       Cinnamon Bun
       <sup><a href="#fn:2" class="footnote">2</a></sup>
@@ -50,7 +50,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Level 37.1
       <span class="subversion"><a href="https://developer.android.com/about/versions/17/qpr1">Android 17 QPR1</a></span>
     </td>
-    <td><code>CINNAMON_BUN_1</code></td>
+    <td><code>CINNAMON_BUN_1</code> <sup><a href="#fn:6" class="footnote">6</a></sup></td>
   </tr>
   <tr>
     <td>Level 37 <span class="subversion">Android 17</span></td>
@@ -64,7 +64,7 @@ This is an overview of all Android versions and their corresponding identifiers 
       Level 36.1
       <span class="subversion"><a href="https://developer.android.com/about/versions/16/qpr2">Android 16 QPR2</a></span>
     </td>
-    <td><code>BAKLAVA_1</code></td>
+    <td><code>BAKLAVA_1</code> <sup><a href="#fn:6" class="footnote">6</a></sup></td>
     <td rowspan="2">
       Baklava
       <sup><a href="#fn:2" class="footnote">2</a></sup>
@@ -505,6 +505,9 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
     </li>
     <li id="fn:5">
       <p>Existing apps that target a lower API level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>. For example, new users can still install an app targeting API level 34 on Android 14 and lower, but not on Android 15 or higher. See <a href="#google-play-target-api-levels">Google Play target API levels</a> for other device types. <a href="#fnref:5" class="reversefootnote">↩</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Minor releases have no constant in <code>Build.VERSION_CODES</code>. Their constants are only in <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES_FULL"><code>Build.VERSION_CODES_FULL</code></a>, where values encode both the major and minor API level, for example <code>3600001</code> for API level 36.1. <a href="#fnref:6" class="reversefootnote">↩</a></p>
     </li>
   </ol>
 </div>
