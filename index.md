@@ -482,7 +482,7 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
   </tr>
   <tr>
     <td class="nowrap"><code>Build.VERSION.SDK_INT_FULL</code></td>
-    <td>The full API level of the Android OS, including its minor API level. For example, Android 17 QPR1 is API level 37.1 and reports <code>3700001</code> (aka <code>Build.VERSION_CODES_FULL.CINNAMON_BUN_1</code>), while <code>SDK_INT</code> remains <code>37</code>. Compare against named constants because the integer encoding may change.</td>
+    <td>The full API level of the Android OS, including its minor API level. For example, Android 17 QPR1 is API level 37.1 and reports <code>3700001</code> (aka <code>Build.VERSION_CODES_FULL.CINNAMON_BUN_1</code>), while <code>SDK_INT</code> remains <code>37</code>. Possible values are defined in <code>Build.VERSION_CODES_FULL</code>.</td>
   </tr>
 </table>
 </div>
