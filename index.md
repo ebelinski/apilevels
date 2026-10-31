@@ -84,7 +84,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     </td>
   </tr>
   <tr>
-    <td rowspan="1">
+    <td rowspan="2">
       <b><a href="https://developer.android.com/about/versions/15">Android 15</a></b>
     </td>
     <td>Level 35</td>
@@ -93,8 +93,15 @@ This is an overview of all Android versions and their corresponding identifiers 
       Vanilla Ice Cream
       <sup><a href="#fn:2" class="footnote">2</a></sup>
     </td>
-    {% include progress-cell.html rowspan=1 percentage=55.3 %}
-    <td rowspan="1">2024</td>
+    {% include progress-cell.html rowspan=2 percentage=55.3 %}
+    <td rowspan="2">2024</td>
+  </tr>
+  <tr class="table-notes">
+    <td colspan="3">
+      <ul>
+        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 35+</a> for existing apps to stay available to new users on newer Android versions as of August 31, 2026.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td rowspan="1">
