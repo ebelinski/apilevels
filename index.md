@@ -206,7 +206,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr>
     <td>Level 24 <span class="subversion">Android 7.0</span></td>
     <td><code>N</code></td>
-    {% include progress-cell.html rowspan=1 percentage=99.4 %}
+    {% include progress-cell.html rowspan=2 percentage=99.4 %}
   </tr>
   <tr class="table-notes"><td colspan="3">
       <ul>
