@@ -316,7 +316,7 @@ This is an overview of all Android versions and their corresponding identifiers 
     <td rowspan="7">2011</td>
   </tr>
   <tr>
-    <td>Level 14 <span class="subversion">Android 4.0.1 – 4.0.2</span></td>
+    <td>Level 14 <span class="subversion">Android 4.0 – 4.0.2</span></td>
     <td><code>ICE_CREAM_SANDWICH</code></td>
   </tr>
   <tr class="table-notes"><td colspan="3">
