@@ -456,12 +456,12 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
   <tr>
     <td class="nowrap"><code>targetSdk</code></td>
     <td class="nowrap"><code>targetSdkVersion</code></td>
-    <td>The SDK version that your app targets, defined in <code>build.gradle</code>. This should always be the same as <code>compileSdk</code>.</td>
+    <td>The SDK version that your app targets, defined in <code>build.gradle</code>. It's usually the same as <code>compileSdk</code>, and shouldn't be higher.</td>
   </tr>
   <tr>
     <td class="nowrap"><code>compileSdk</code></td>
     <td class="nowrap"><code>compileSdkVersion</code></td>
-    <td>The SDK version that your app compiles against, defined in <code>build.gradle</code>. Android Studio uses this SDK version to build your AABs and APKs. This should always be the same as <code>targetSdk</code>.</td>
+    <td>The SDK version that your app compiles against, defined in <code>build.gradle</code>. Android Studio uses this SDK version to build your AABs and APKs. It's usually the same as <code>targetSdk</code>, but it can be higher, for example to use newer APIs before targeting a newer level.</td>
   </tr>
 </table>
 </div>
