@@ -99,7 +99,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   <tr class="table-notes">
     <td colspan="3">
       <ul>
-        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 35+</a> for existing apps to stay available to new users on newer Android versions as of August 31, 2026.</li>
+        <li><code>targetSdk</code> <a href="https://support.google.com/googleplay/android-developer/answer/11926878">must be 35+</a> for existing apps to stay available to new users on devices running an Android version higher than the app's <code>targetSdk</code> as of August 31, 2026.</li>
       </ul>
     </td>
   </tr>
@@ -396,7 +396,7 @@ This is an overview of all Android versions and their corresponding identifiers 
 
 ## Google Play target API levels
 
-The minimum <code>targetSdk</code> that <a href="https://support.google.com/googleplay/android-developer/answer/11926878">Google Play requires</a> as of August 31, 2026. Existing apps that target a lower level are no longer available to new users on devices running newer Android versions.
+The minimum <code>targetSdk</code> that <a href="https://support.google.com/googleplay/android-developer/answer/11926878">Google Play requires</a> as of August 31, 2026. Existing apps that target a lower level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>.
 
 <div class="table-responsive" tabindex="0" role="region" aria-labelledby="google-play-target-api-levels">
 <table class="full-width">
