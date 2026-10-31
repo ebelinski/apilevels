@@ -251,7 +251,7 @@ This is an overview of all Android versions and their corresponding identifiers 
   </tr>
   <tr>
     <td>Level 21 <span class="subversion">Android 5.0</span></td>
-    <td><code>LOLLIPOP</code>, <code>L</code></td>
+    <td><code>LOLLIPOP</code></td>
     {% include progress-cell.html rowspan=2 percentage=99.8 %}
     <td rowspan="3">2014</td>
   </tr>
