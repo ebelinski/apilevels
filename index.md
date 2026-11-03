@@ -394,47 +394,6 @@ This is an overview of all Android versions and their corresponding identifiers 
 </table>
 </div>
 
-## Google Play target API levels
-
-The minimum <code>targetSdk</code> that <a href="https://support.google.com/googleplay/android-developer/answer/11926878">Google Play requires</a> as of August 31, 2026. Existing apps that target a lower level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>.
-
-<div class="table-responsive" tabindex="0" role="region" aria-labelledby="google-play-target-api-levels">
-<table class="full-width">
-  <thead>
-    <tr>
-      <th scope="col">Device type</th>
-      <th scope="col">New apps and app updates</th>
-      <th scope="col">Existing apps</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>Phones and tablets</td>
-    <td>Level 36</td>
-    <td>Level 35</td>
-  </tr>
-  <tr>
-    <td>Wear OS</td>
-    <td>Level 35</td>
-    <td>Level 34</td>
-  </tr>
-  <tr>
-    <td>Android Automotive OS</td>
-    <td>Level 35</td>
-    <td>Level 32</td>
-  </tr>
-  <tr>
-    <td>Android TV</td>
-    <td>Level 34</td>
-    <td>Level 33</td>
-  </tr>
-  <tr>
-    <td>Android XR</td>
-    <td>Level 34</td>
-    <td>Level 34</td>
-  </tr>
-</table>
-</div>
-
 ## Definitions
 
 ### Gradle files
@@ -504,7 +463,7 @@ The minimum <code>targetSdk</code> that <a href="https://support.google.com/goog
       <p>The years represent the year of first stable release of each version. The release dates are from <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES#constants_1"><code>android.os.Build.VERSION_CODES</code></a> including later versions' years from the <a href="https://blog.google/products/android/">Official Android blog</a> (<a href="https://blog.google/products/android/android-12/">12</a>, <a href="https://blog.google/products/android/12l-larger-screens/">12L</a>, <a href="https://blog.google/products/android/android-13/">13</a>, <a href="https://blog.google/products/android/android-14/">14</a>, <a href="https://blog.google/products/android/android-15/">15</a>, <a href="https://blog.google/products-and-platforms/platforms/android/android-16/">16</a>, <a href="https://blog.google/products-and-platforms/platforms/android/android-17-features/">17</a>) <a href="#fnref:4" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:5">
-      <p>Existing apps that target a lower API level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>. For example, new users can still install an app targeting API level 34 on Android 14 and lower, but not on Android 15 or higher. See <a href="#google-play-target-api-levels">Google Play target API levels</a> for other device types. <a href="#fnref:5" class="reversefootnote">↩</a></p>
+      <p>Existing apps that target a lower API level are no longer available to new users on devices running an Android version higher than the app's <code>targetSdk</code>. For example, new users can still install an app targeting API level 34 on Android 14 and lower, but not on Android 15 or higher. <a href="#fnref:5" class="reversefootnote">↩</a></p>
     </li>
     <li id="fn:6">
       <p>Minor releases have no constant in <code>Build.VERSION_CODES</code>. Their constants are only in <a href="https://developer.android.com/reference/android/os/Build.VERSION_CODES_FULL"><code>Build.VERSION_CODES_FULL</code></a>, where values encode both the major and minor API level, for example <code>3600001</code> for API level 36.1. <a href="#fnref:6" class="reversefootnote">↩</a></p>
