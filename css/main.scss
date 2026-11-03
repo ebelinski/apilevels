@@ -11,8 +11,6 @@
   --code: #d63384;
   --table-border: #333;
   --table-header: #ddd;
-  --progress: #60ECAD;
-  --progress-empty: white;
   --toc-background: #fafafa;
   --subversion-background: #d1f2e3;
   --subversion-text: #456b5c;
@@ -32,8 +30,6 @@
     --code: #e685b5;
     --table-border: #999;
     --table-header: #333;
-    --progress: #006236;
-    --progress-empty: transparent;
     --toc-background: #333;
     --subversion-background: #074a2c;
     --subversion-text: #cdf3e2;
@@ -204,10 +200,6 @@ table {
     ol {
       margin-bottom: 0px;
     }
-  }
-
-  td.progress-cell {
-    background: linear-gradient(to right, var(--progress) var(--percentage), var(--progress-empty) var(--percentage));
   }
 }
 
